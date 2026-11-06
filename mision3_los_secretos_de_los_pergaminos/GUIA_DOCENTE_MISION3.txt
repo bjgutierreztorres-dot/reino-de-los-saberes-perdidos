@@ -1,0 +1,48 @@
+EL REINO DE LOS SABERES PERDIDOS
+GUÍA DOCENTE — MISIÓN 3: LOS SECRETOS DE LOS PERGAMINOS
+
+Duración: 60 minutos
+Modalidad: trabajo individual
+Acceso: archivo local desde el navegador; no requiere registro ni inicio de sesión.
+Evidencia: pergamino de verificación resuelto, con identificación del error, fuente consultada, dato de respaldo, corrección y justificación.
+Recompensa: insignia «Guardián de la Verdad».
+
+1. DISTRIBUCIÓN DEL TIEMPO
+- 5 minutos: presentar la historia y el mensaje sospechoso del Oráculo Real.
+- 10 minutos: explicar criterios básicos de verificación: quién publica, qué evidencia presenta, fecha de publicación o actualización cuando esté disponible y contraste con otras fuentes.
+- 10 minutos: analizar el mensaje del Oráculo e identificar qué afirmaciones requieren comprobación.
+- 15 minutos: orientar la consulta individual de NASA Space Place y NASA Ciencia.
+- 15 minutos: completar el pergamino, redactar la corrección y justificar la confiabilidad de la fuente.
+- 5 minutos: ofrecer retroalimentación y validar la insignia según la calidad de la evidencia.
+
+2. MENSAJE DEL ORÁCULO
+«El Sol es un planeta del sistema solar y no produce luz propia; únicamente refleja la luz de otras estrellas».
+
+La afirmación es incorrecta. El Sol es una estrella situada en el centro de nuestro sistema solar. NASA Space Place explica que es una estrella de tamaño medio, formada principalmente por hidrógeno y helio. NASA Ciencia también lo identifica como una estrella.
+
+3. FUENTES PARA LA VERIFICACIÓN
+Fuente principal:
+NASA Space Place. «¿Cómo es nuestro Sol con respecto a otras estrellas?»
+https://spaceplace.nasa.gov/sun-compare/sp/
+
+Fuente complementaria:
+NASA Ciencia. «Datos sobre el Sol»
+https://ciencia.nasa.gov/datos-sobre-el-sol/
+
+Ambas páginas son de acceso público y no requieren que el estudiante cree una cuenta. Para la consulta directa se necesita conexión a internet. Si no hay conexión, la actividad conserva un resumen de consulta dentro de la página local; la comprobación directa en los sitios oficiales puede realizarse en otro momento.
+
+4. RESPUESTA ESPERADA
+Una corrección posible es: «El Sol es una estrella ubicada en el centro de nuestro sistema solar». Se aceptarán otras formulaciones correctas que distingan al Sol de un planeta y estén sustentadas por la fuente consultada.
+
+5. CRITERIOS PARA REVISAR LA EVIDENCIA
+- Identifica que el mensaje contiene información incorrecta.
+- Registra el nombre de una fuente pertinente.
+- Recupera un dato que respalda la corrección.
+- Redacta una afirmación científicamente correcta con sus propias palabras.
+- Explica por qué considera confiable la fuente.
+- Concluye por qué es necesario verificar las respuestas generadas por IA.
+
+La validación automática comprueba que los campos estén completos; no califica la calidad conceptual de la respuesta. La insignia «Guardián de la Verdad» debe ser validada por el docente.
+
+6. PRIVACIDAD Y FUNCIONAMIENTO
+La página funciona localmente y no transmite ni almacena respuestas en un servidor. No se requiere nombre completo; el campo de nombre o código es opcional. No se deben incluir contraseñas, direcciones ni datos personales sensibles. La evidencia puede imprimirse o guardarse como PDF desde el navegador.

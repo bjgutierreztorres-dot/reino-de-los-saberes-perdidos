@@ -1,0 +1,60 @@
+EL REINO DE LOS SABERES PERDIDOS
+GUÍA DOCENTE — MISIÓN 2: EL LENGUAJE DE LOS SABIOS
+
+Duración: 60 minutos
+Modalidad: trabajo individual
+Acceso: archivo local, sin registro ni inicio de sesión
+Evidencia: dos prompts elaborados y una versión mejorada, con justificación de los cambios.
+Recompensa: insignia «Escriba del Oráculo».
+
+1. DISTRIBUCIÓN DEL TIEMPO
+- 5 minutos: presentar la misión y leer el mensaje del Consejo Real.
+- 10 minutos: explicar los tres elementos del prompt: objetivo, contexto y resultado esperado.
+- 10 minutos: comparar la instrucción imprecisa con la mejorada.
+- 15 minutos: acompañar la elaboración individual de dos prompts.
+- 10 minutos: demostración guiada con uno de los prompts del estudiante, utilizando una herramienta de IA gestionada por el docente.
+- 5 minutos: mejorar una instrucción y justificar los cambios.
+- 5 minutos: revisar la ficha, ofrecer retroalimentación y validar la insignia.
+
+2. CONTENIDO CLAVE
+Un prompt es una instrucción o solicitud que se proporciona a una herramienta de IA para orientar la respuesta. En esta misión se trabajan tres elementos:
+- Objetivo: qué se necesita conseguir o qué tarea debe realizar la IA.
+- Contexto: situación, tema, público o rol que debe considerar.
+- Resultado esperado: formato, extensión o nivel de detalle deseado.
+
+Fórmula orientadora:
+«Necesito que [objetivo]. Considera este contexto: [contexto]. Presenta el resultado como [formato o características esperadas]».
+
+3. EJEMPLO PARA LA COMPARACIÓN
+Instrucción imprecisa:
+«Háblame sobre el cuidado del agua».
+
+Instrucción mejorada:
+«Explica a estudiantes de tercero de secundaria tres acciones para ahorrar agua en el colegio. Organiza la respuesta en una lista numerada e incluye una breve justificación de cada acción».
+
+La segunda instrucción orienta mejor porque especifica objetivo, contexto y resultado esperado.
+
+4. CLAVE DE LA ACTIVIDAD
+La opción adecuada es la instrucción mejorada. La instrucción inicial solo indica un tema general; la segunda determina público, cantidad de ideas, contexto y formato de la respuesta.
+
+5. DEMOSTRACIÓN DEL ORÁCULO REAL
+La página no se conecta a una herramienta de IA ni transmite información. Para realizar la demostración:
+- El estudiante selecciona uno de sus prompts.
+- El docente copia o recibe el prompt y lo introduce desde su propio acceso a una herramienta de IA previamente revisada.
+- Se observa si la respuesta responde al objetivo, considera el contexto y respeta el formato esperado.
+- Se dialoga sobre posibles mejoras.
+
+No se debe exigir a los estudiantes que creen cuentas. El docente debe verificar las condiciones de edad, privacidad y uso del servicio antes de una demostración en vivo.
+
+6. CRITERIOS PARA REVISAR LA EVIDENCIA
+- Presenta dos prompts relacionados con situaciones o temas pertinentes.
+- Cada prompt expresa una necesidad u objetivo identificable.
+- Incluye el contexto necesario para orientar la respuesta.
+- Precisa el tipo de resultado esperado.
+- Presenta una versión mejorada de uno de los prompts.
+- Justifica los cambios realizados.
+
+La validación de la insignia «Escriba del Oráculo» corresponde al docente después de revisar la evidencia. La comprobación automática de la página solo verifica que los campos se hayan completado; no califica la calidad conceptual de las respuestas.
+
+7. PRIVACIDAD Y USO RESPONSABLE
+Indicar al estudiante que no debe incluir contraseñas, direcciones, datos personales sensibles ni información privada en sus prompts. Las respuestas de la ficha permanecen en el navegador mientras la página está abierta; no se envían ni almacenan en un servidor.

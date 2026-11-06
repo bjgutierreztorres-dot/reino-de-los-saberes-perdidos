@@ -1,0 +1,42 @@
+EL REINO DE LOS SABERES PERDIDOS
+MISIÓN 4: LA RECUPERACIÓN DEL CONOCIMIENTO
+GUÍA DOCENTE
+
+PROPÓSITO
+Integrar los aprendizajes de las cuatro misiones mediante la elaboración individual de una infografía digital sobre un uso útil, crítico y responsable de la inteligencia artificial.
+
+DURACIÓN TOTAL: 60 MINUTOS
+- 5 min: presentar la misión final y recuperar el recorrido anterior.
+- 5 min: explicar la evidencia y los criterios de revisión.
+- 10 min: orientar la selección del tema, el objetivo y la organización de las ideas; el estudiante puede redactar un prompt con objetivo, contexto y resultado esperado.
+- 25 min: acompañar la elaboración individual de la infografía en el Taller de infografías del Reino integrado en la misión.
+- 10 min: revisar claridad, verificación, fuentes, privacidad, ortografía y atribución del uso de IA.
+- 5 min: recoger la infografía y la ficha, cerrar la narrativa y validar la insignia.
+
+PRODUCTO ESPERADO
+Infografía individual: «El pergamino del conocimiento recuperado».
+Debe incluir:
+1. Título y mensaje central.
+2. Dos ejemplos de uso útil de IA en el estudio o la vida cotidiana.
+3. Un prompt que permita reconocer objetivo, contexto y resultado esperado.
+4. Un dato o afirmación contrastada con al menos una fuente confiable.
+5. Dos recomendaciones de uso responsable (por ejemplo, privacidad y revisión crítica).
+6. Identificación de la fuente consultada.
+
+CRITERIOS DE REVISIÓN
+- El propósito y el mensaje principal son claros.
+- La información es pertinente y está organizada.
+- El prompt presenta objetivo, contexto y resultado esperado.
+- Los datos relevantes han sido contrastados con una fuente confiable.
+- Se incorporan recomendaciones de privacidad y uso responsable.
+- El diseño es legible y las fuentes son identificables.
+
+HERRAMIENTA
+Taller de infografías del Reino (integrado en la página HTML).
+El taller se ejecuta dentro de la página HTML en el navegador del estudiante, funciona sin conexión, no solicita cuentas y genera un archivo PNG descargable sin enviar el contenido a un servidor.
+
+IA Y PRIVACIDAD
+No es necesario que el estudiante inicie sesión en una herramienta de IA. Las consultas podrán ser gestionadas por el docente en una herramienta previamente autorizada para su contexto y edad. No se deben ingresar datos personales, información privada ni datos sensibles.
+
+VALIDACIÓN DE LA INSIGNIA
+La insignia «Sabio del Reino» se entrega después de que el docente revise la infografía y la ficha de evidencia. Marcar la lista de comprobación en la página no sustituye la revisión docente.

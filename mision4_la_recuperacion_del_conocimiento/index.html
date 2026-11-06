@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Misión 4: La recuperación del conocimiento. Desafío integrador para crear una infografía digital sobre el uso crítico y responsable de la inteligencia artificial.">
+<title>Misión 4 | La recuperación del conocimiento</title>
+<style>
+:root{--azul:#142c4d;--azul2:#203e66;--oro:#c99b43;--oro-claro:#f2d99d;--pergamino:#fbf2dc;--tinta:#2d261d;--verde:#2f6b4f;--rojo:#8d3d35;--linea:#dbc99f;--sombra:0 12px 28px rgba(0,0,0,.18);--morado:#654486}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(145deg,#101b2b,#243b53);color:var(--tinta);font-family:Georgia,'Times New Roman',serif;line-height:1.55}.wrap{max-width:1140px;margin:auto;padding:22px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;color:#f7e7bd;margin-bottom:18px;font:700 .88rem Arial,sans-serif}.brand{letter-spacing:.045em}.mission-no{border:1px solid #d0ae6c;padding:6px 11px;border-radius:999px;color:#f7e7bd;white-space:nowrap}
+.hero{display:grid;grid-template-columns:minmax(220px,290px) minmax(0,1fr);align-items:stretch;background:var(--pergamino);border:3px solid var(--oro);border-radius:18px;overflow:hidden;box-shadow:var(--sombra)}.hero-art{padding:17px;background:linear-gradient(145deg,#142c4d,#203e66);display:flex;align-items:center;justify-content:center;min-width:0}.hero-art img{display:block;width:min(100%,285px);height:auto;max-height:300px;object-fit:contain;object-position:center;margin:auto;filter:drop-shadow(0 7px 10px rgba(0,0,0,.22))}.hero-copy{min-width:0;padding:26px 30px;background:linear-gradient(135deg,#fff7e5,#f1dfb8)}.eyebrow{text-transform:uppercase;letter-spacing:.09em;font:700 .76rem Arial,sans-serif;color:#78561b}.hero h1{font-size:clamp(1.75rem,4vw,2.55rem);margin:6px 0 12px;color:var(--azul);line-height:1.14}.hero-copy p{font-size:1.02rem;margin:8px 0}.hero-foot{margin-top:14px;padding:11px 14px;border-left:5px solid var(--verde);background:#e6efdf;color:#244c38;border-radius:8px;font:.92rem/1.5 Arial,sans-serif}
+.card{background:var(--pergamino);border:1px solid var(--linea);border-radius:16px;padding:23px;margin-top:19px;box-shadow:var(--sombra)}h2,h3{color:var(--azul);line-height:1.2}h2{font-size:1.43rem;margin:0 0 12px}h3{font-size:1.1rem;margin:0 0 8px}.section-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}.number{width:34px;height:34px;display:grid;place-items:center;flex:none;border-radius:50%;background:var(--azul);border:2px solid var(--oro);color:white;font-weight:700}.note{font:.92rem/1.55 Arial,sans-serif;color:#594b34}.muted{color:#6c5e48;font-size:.92rem}.small{font-size:.84rem}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.step{background:#fff9eb;border:1px solid var(--linea);border-radius:12px;padding:14px;min-width:0}.step .step-no{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:var(--azul);border:2px solid var(--oro);color:white;font:700 .9rem Arial,sans-serif;margin-bottom:8px}.step strong{display:block;color:var(--azul);font:700 .9rem Arial,sans-serif;margin-bottom:5px}.step p{margin:0;font:.87rem/1.45 Arial,sans-serif}.panel{background:#fff9eb;border:1px solid var(--linea);border-radius:12px;padding:16px}.panel h3{margin-bottom:8px}.challenge-flex{display:flex;align-items:center;gap:12px}.challenge-flex>div{flex:1;min-width:0}.challenge-poster{width:132px;max-height:170px;object-fit:contain;border-radius:9px;flex:none;border:1px solid #e2d3ad;background:#fff}.callout{padding:13px 15px;border-radius:10px;background:#eee4f4;border-left:5px solid #78549a;font:.92rem/1.5 Arial,sans-serif;color:#392c4c}.oracle{background:#f2e4c4;border:1px solid #c9a35f;border-left:7px solid var(--oro);padding:17px;border-radius:12px}.oracle-label{font:700 .76rem Arial,sans-serif;color:#70501b;text-transform:uppercase;letter-spacing:.06em}.oracle blockquote{margin:10px 0;padding:13px 15px;background:#fff8e9;border:1px dashed #b58c42;border-radius:10px;font-size:1.04rem;font-weight:700;color:#4a3021}.action{border:1px solid #9f7a38;background:var(--azul);color:white;border-radius:9px;padding:10px 14px;font:700 .9rem Arial,sans-serif;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:7px}.action:hover{background:#274d79}.action.gold{background:#845b15;border-color:#b58c42}.action.green{background:#2f6b4f;border-color:#25583f}.action.purple{background:#5e3c82;border-color:#8b68af}.action.secondary{background:transparent;color:var(--azul)}.action:focus-visible,input:focus-visible,textarea:focus-visible,button:focus-visible{outline:3px solid #6b9ed6;outline-offset:2px}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}.field{margin:12px 0}.field label{display:block;font:700 .9rem Arial,sans-serif;color:var(--azul);margin:0 0 5px}.field textarea,.field input,.field select{width:100%;border:1px solid #bba675;border-radius:8px;background:white;padding:10px;font:.96rem/1.45 Arial,sans-serif;color:#292929}.field textarea{min-height:76px;resize:vertical}.hint{display:block;font:.8rem Arial,sans-serif;color:#76684e;margin-top:4px}.checklist{display:grid;gap:8px}.checkrow{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--linea);border-radius:9px;padding:10px 12px;background:#fffaf0;font:.91rem/1.4 Arial,sans-serif}.checkrow input{margin-top:3px;accent-color:#244e79}.status{padding:11px 13px;background:#eee0bb;border:1px solid #d1b66f;border-radius:10px;font:700 .88rem/1.4 Arial,sans-serif;margin-top:10px}.feedback{margin-top:10px;padding:11px;border-radius:9px;font:.9rem/1.5 Arial,sans-serif;display:none}.feedback.good{display:block;background:#e2f0e5;color:#225b3b;border:1px solid #9dc4a6}.feedback.bad{display:block;background:#f8e8df;color:#7b3027;border:1px solid #dbafa0}.evidence{border:2px solid #c5a15a;padding:19px;border-radius:12px;background:#fff9e9}.evidence label{display:block;font-weight:700;color:var(--azul);margin:13px 0 5px;font:700 .9rem Arial,sans-serif}.evidence input,.evidence textarea{width:100%;border:1px solid #bba675;border-radius:8px;background:white;padding:10px;font:1rem Arial,sans-serif;color:#292929}.evidence textarea{min-height:76px;resize:vertical}.template-preview{border:2px solid #c69b4b;border-radius:13px;padding:16px;background:linear-gradient(145deg,#fff9e9,#f0dfb7);box-shadow:inset 0 0 0 5px rgba(201,155,67,.1)}.template-head{background:var(--azul);color:#f8e7bd;border:2px solid var(--oro);padding:12px;border-radius:9px;text-align:center}.template-head h3{color:#fff1c9;margin:0 0 4px}.template-head p{margin:0;font: .85rem Arial,sans-serif}.template-blocks{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:10px}.template-block{background:#fffdf7;border:1px solid #d8c18e;border-radius:8px;padding:10px;min-height:100px}.template-block b{display:block;color:var(--azul);font:700 .84rem Arial,sans-serif;margin-bottom:5px}.template-block span{font:.82rem/1.4 Arial,sans-serif;color:#5c4b2e}.template-foot{margin-top:10px;text-align:center;background:#e8dfc8;border-radius:8px;padding:8px;font:700 .82rem Arial,sans-serif;color:#4a391d}.resource-box{display:flex;gap:14px;align-items:center;flex-wrap:wrap;background:#e7edf5;border:1px solid #bcc9d9;border-radius:12px;padding:14px}.resource-logo{width:54px;height:54px;border-radius:12px;background:#fff;display:grid;place-items:center;font:700 1.5rem Arial,sans-serif;color:#6c4bb4;flex:none}.resource-copy{flex:1;min-width:180px}.resource-copy strong{color:var(--azul);font:700 .96rem Arial,sans-serif}.resource-copy p{margin:4px 0;font:.86rem/1.45 Arial,sans-serif;color:#34465c}.badge-area{display:flex;align-items:center;gap:18px;background:linear-gradient(135deg,#142c4d,#203e66);padding:16px;border:2px solid #c5a15a;border-radius:12px;min-width:0}.badge-area h3{color:#f6e3b3}.badge-area .reward-note{color:#f4e7c9}.fragment-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin:12px 0 16px}.fragment{display:flex;align-items:center;gap:9px;background:#fff9eb;border:1px solid var(--linea);border-radius:10px;padding:10px;min-width:0}.fragment .symbol{width:34px;height:34px;display:grid;place-items:center;background:var(--azul);color:#f5dfa5;border:2px solid var(--oro);border-radius:9px;flex:none;font:700 .88rem Georgia,serif}.fragment strong{display:block;color:var(--azul);font:700 .82rem Arial,sans-serif}.fragment span{display:block;color:#64563e;font:.74rem Arial,sans-serif}.badge-area img{display:block;flex:0 0 132px;width:132px;height:auto;max-height:170px;object-fit:contain;object-position:center;margin:auto;border-radius:10px}.reward-note{font:.9rem/1.5 Arial,sans-serif;color:#594b34}.teacher{font:.9rem/1.55 Arial,sans-serif}.teacher summary{cursor:pointer;color:var(--azul);font-weight:700}.teacher ul{padding-left:21px}.footer{color:#f2e2ba;text-align:center;padding:22px 12px;font:.82rem Arial,sans-serif}.fragment{display:flex;align-items:center;gap:10px;background:#fff9eb;border:1px solid var(--linea);border-radius:10px;padding:10px}.fragment .symbol{width:38px;height:38px;display:grid;place-items:center;background:var(--azul);color:#f5dfa5;border:2px solid var(--oro);border-radius:10px;font:700 1.1rem Georgia,serif;flex:none}.fragment strong{display:block;color:var(--azul);font:.88rem Arial,sans-serif}.fragment span{display:block;color:#64563e;font:.78rem Arial,sans-serif}.print-title{display:none}.output{white-space:pre-wrap;background:#fffdf7;border:1px dashed #b58c42;border-radius:9px;padding:13px;font:.9rem/1.5 Arial,sans-serif;min-height:70px}.topic-pills{display:flex;flex-wrap:wrap;gap:7px}.topic-pills button{border:1px solid #c6a96e;border-radius:999px;background:#fff8e8;padding:7px 11px;color:#483719;font:700 .82rem Arial,sans-serif;cursor:pointer}.topic-pills button:hover{background:#f0dfb7}.note-small{font:.82rem/1.45 Arial,sans-serif;color:#66583e}
+@media(max-width:800px){.wrap{padding:13px}.hero{grid-template-columns:1fr}.fragment-grid{grid-template-columns:1fr 1fr}.hero-art{padding:13px}.hero-art img{width:min(100%,240px);max-height:245px}.hero-copy{padding:21px}.steps{grid-template-columns:1fr 1fr}.grid3{grid-template-columns:1fr 1fr}.grid2{grid-template-columns:1fr}.card{padding:17px}.badge-area{flex-direction:column;text-align:center}.badge-area img{width:118px;max-height:145px;flex-basis:auto}}
+@media(max-width:480px){.topbar{align-items:flex-start;flex-direction:column}.challenge-flex{flex-direction:column;align-items:flex-start}.challenge-poster{width:115px;max-height:145px;align-self:center}.fragment-grid{grid-template-columns:1fr}.steps,.grid3,.template-blocks{grid-template-columns:1fr}.hero h1{font-size:1.8rem}.card{padding:14px}.actions .action{width:100%}.badge-area img{width:112px}}
+@media print{body{background:white;color:#111}.topbar,.hero,.card:not(.evidence-card),.footer,.no-print,.teacher{display:none!important}.wrap{max-width:none;padding:0}.evidence-card{display:block!important;margin:0;border:0;box-shadow:none;background:white;padding:0}.evidence{border:2px solid #333;background:white}.evidence input,.evidence textarea{border:0;border-bottom:1px solid #888;border-radius:0;padding:6px 0}.evidence textarea{min-height:50px}.evidence h2,.evidence h3{color:#111}.print-title{display:block!important}.evidence-card .section-head .number{background:#333;border-color:#333}}
+</style>
+</head>
+<body><div id="reino-nav" style="position:sticky;top:0;z-index:9999;background:#102746;border-bottom:3px solid #c99b42;padding:10px 16px;display:flex;gap:12px;justify-content:space-between;align-items:center;font-family:Georgia,serif;box-shadow:0 3px 12px #0004"><a href="../index.html" style="color:#f8e7bd;text-decoration:none;font-weight:bold">⚜ El Reino de los Saberes Perdidos</a><div style="display:flex;gap:14px;flex-wrap:wrap"><a href="../mision3_los_secretos_de_los_pergaminos/index.html">← Misión anterior</a><span style="color:#e7c77f">Misión 4</span><a href="../index.html">Volver al reino ↑</a></div></div><style>#reino-nav a{color:#f8e7bd;text-decoration:none}#reino-nav a:hover{color:#fff;text-decoration:underline}@media(max-width:600px){#reino-nav{align-items:flex-start;flex-direction:column}}</style>
+<div class="wrap">
+  <div class="topbar"><div class="brand">✦ ORDEN DE LOS SABIOS · EL REINO DE LOS SABERES PERDIDOS</div><div class="mission-no">Misión 4 de 4 · La recuperación del conocimiento</div></div>
+
+  <section class="hero" aria-label="Presentación de la cuarta misión">
+    <div class="hero-art"><img src="assets/aprendiz_con_libro.png" alt="Aprendiz del reino con un libro iluminado, listo para la misión final"></div>
+    <div class="hero-copy">
+      <div class="eyebrow">Mensaje final del Consejo Real · Última misión</div>
+      <h1>La recuperación del conocimiento</h1>
+      <p><strong>Aprendiz:</strong> has aprendido a reconocer la inteligencia artificial, comunicarte con el Oráculo Real y verificar sus respuestas. Ha llegado el momento de reunir esos saberes y convertirlos en una creación propia que ayude a otros habitantes del reino a aprender con criterio.</p>
+      <p>Tu desafío será elaborar una infografía digital sobre un uso útil y responsable de la inteligencia artificial en el estudio o la vida cotidiana.</p>
+      <div class="hero-foot"><strong>Tu misión:</strong> recuperar el conocimiento y restaurar la Gran Biblioteca del Reino mediante una infografía clara, creativa y fundamentada.</div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">1</div><h2>El desafío final del Reino</h2></div>
+    <div class="grid2">
+      <div class="panel">
+        <h3>¿Qué vas a crear?</h3>
+        <div class="challenge-flex"><div><p>Una infografía individual titulada <strong>«El pergamino del conocimiento recuperado»</strong>, en la que explicarás cómo utilizar la inteligencia artificial para aprender, investigar o resolver una situación cercana, sin aceptar sus respuestas sin revisarlas.</p>
+        <p class="note">Tu infografía debe tener un mensaje principal, información breve y organizada, al menos un ejemplo, recomendaciones de uso responsable y fuentes consultadas.</p></div><img class="challenge-poster" src="assets/desafio_final.png" alt="Pergamino ilustrado del desafío final"></div>
+      </div>
+      <div class="panel">
+        <h3>¿Qué aprendizajes integrarás?</h3>
+        <div class="checklist">
+          <div class="checkrow"><span>✦</span><span>Reconocer qué puede hacer la inteligencia artificial y cuáles son sus límites.</span></div>
+          <div class="checkrow"><span>✦</span><span>Formular instrucciones con objetivo, contexto y resultado esperado.</span></div>
+          <div class="checkrow"><span>✦</span><span>Verificar afirmaciones con fuentes confiables.</span></div>
+          <div class="checkrow"><span>✦</span><span>Comunicar recomendaciones de privacidad y uso responsable.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">2</div><h2>Los cuatro pasos para restaurar la biblioteca</h2></div>
+    <div class="steps">
+      <div class="step"><div class="step-no">1</div><strong>Planifica</strong><p>Elige una situación escolar o cotidiana y define qué deseas comunicar.</p></div>
+      <div class="step"><div class="step-no">2</div><strong>Organiza</strong><p>Prepara un prompt y solicita ideas o explicaciones con apoyo del docente.</p></div>
+      <div class="step"><div class="step-no">3</div><strong>Verifica</strong><p>Contrasta los datos importantes con fuentes confiables y corrige lo necesario.</p></div>
+      <div class="step"><div class="step-no">4</div><strong>Crea y presenta</strong><p>Diseña la infografía, revisa su claridad y entrégala como evidencia final.</p></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">3</div><h2>Organiza tus ideas antes de crear</h2></div>
+    <p>Una buena infografía no contiene mucho texto: presenta una idea central y la organiza en bloques breves. Utiliza como guía los cuatro componentes siguientes.</p>
+    <div class="grid2">
+      <div class="panel"><h3>1. Explica un uso útil</h3><p>Describe cómo la IA puede apoyar una actividad concreta: comprender un tema, practicar, organizar información o generar ideas.</p></div>
+      <div class="panel"><h3>2. Muestra una instrucción</h3><p>Incluye un prompt que muestre objetivo, contexto y resultado esperado. Así se verá cómo orientaste al Oráculo Real.</p></div>
+      <div class="panel"><h3>3. Cuenta cómo verificaste</h3><p>Señala qué dato comprobaste, dónde lo contrastaste y qué corregiste o confirmaste.</p></div>
+      <div class="panel"><h3>4. Recomienda un uso responsable</h3><p>Incluye consejos sobre privacidad, revisión crítica, reconocimiento del uso de IA y elaboración propia.</p></div>
+    </div>
+    <div class="oracle" style="margin-top:14px">
+      <div class="oracle-label">Ejemplo de prompt para la misión final</div>
+      <blockquote id="samplePrompt">Actúa como un tutor de Computación para estudiantes de tercero de secundaria. Explica tres formas de utilizar la inteligencia artificial para estudiar, incluye un ejemplo para cada una y dos recomendaciones para verificar la información. Organiza la respuesta en una tabla breve y utiliza lenguaje claro.</blockquote>
+      <div class="actions no-print"><button class="action secondary" type="button" id="copySamplePrompt">Copiar ejemplo de instrucción</button></div>
+      <div id="sampleCopyNotice" class="feedback" aria-live="polite"></div>
+    </div>
+    <p class="note" style="margin-top:12px"><strong>Recuerda:</strong> el docente puede gestionar la consulta al Oráculo Real y mostrar su respuesta. Tú decides qué información conservar, cómo verificarla y cómo explicarla con tus propias palabras.</p>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">4</div><h2>Diseña tu infografía digital</h2></div>
+    <p>Utiliza el <strong>Taller de infografías del Reino</strong>, una herramienta integrada en esta misión. Completa los campos, revisa la vista previa y descarga tu creación como imagen PNG. No necesitas instalar programas, crear una cuenta ni iniciar sesión.</p>
+    <div class="callout"><strong>Recuerda:</strong> el taller organiza el diseño, pero el contenido debe ser tuyo. Utiliza las ideas del Oráculo Real solo como apoyo, verifica los datos y redacta con tus propias palabras.</div>
+    <div class="topic-pills no-print" style="margin-top:14px">
+      <button type="button" data-example="study">Ejemplo: IA para aprender</button>
+      <button type="button" data-example="research">Ejemplo: IA para investigar</button>
+      <button type="button" data-example="environment">Ejemplo: IA y ambiente</button>
+    </div>
+    <div class="grid2" style="margin-top:12px">
+      <div>
+        <div class="field"><label for="infTitle">Título de la infografía</label><input id="infTitle" type="text" maxlength="70" value="IA para aprender con criterio"></div>
+        <div class="field"><label for="infSubtitle">Mensaje principal</label><textarea id="infSubtitle" maxlength="180">La inteligencia artificial puede ayudarte a aprender, pero debes pensar, revisar y decidir.</textarea></div>
+        <div class="field"><label for="infCard1Title">Bloque 1 · ¿Para qué puede ayudarte?</label><input id="infCard1Title" type="text" maxlength="42" value="¿Para qué puede ayudarte?"></div>
+        <div class="field"><label for="infCard1">Contenido del bloque 1</label><textarea id="infCard1" maxlength="220">Puede explicar conceptos difíciles, proponer preguntas para practicar y ayudarte a organizar ideas.</textarea></div>
+        <div class="field"><label for="infCard2Title">Bloque 2 · ¿Cómo formular instrucciones?</label><input id="infCard2Title" type="text" maxlength="42" value="Formula buenas instrucciones"></div>
+        <div class="field"><label for="infCard2">Contenido del bloque 2</label><textarea id="infCard2" maxlength="220">Indica tu objetivo, explica el contexto y señala qué tipo de respuesta necesitas.</textarea></div>
+      </div>
+      <div>
+        <div class="field"><label for="infCard3Title">Bloque 3 · ¿Cómo verificar?</label><input id="infCard3Title" type="text" maxlength="42" value="Verifica la información"></div>
+        <div class="field"><label for="infCard3">Contenido del bloque 3</label><textarea id="infCard3" maxlength="220">Comprueba los datos importantes, revisa la fecha y contrasta con fuentes confiables.</textarea></div>
+        <div class="field"><label for="infCard4Title">Bloque 4 · ¿Cómo usarla responsablemente?</label><input id="infCard4Title" type="text" maxlength="42" value="Utilízala responsablemente"></div>
+        <div class="field"><label for="infCard4">Contenido del bloque 4</label><textarea id="infCard4" maxlength="220">No compartas datos personales, revisa las respuestas y reconoce cuándo utilizaste IA.</textarea></div>
+        <div class="field"><label for="infSource">Fuente o fuentes consultadas</label><textarea id="infSource" maxlength="180" placeholder="Escribe la institución, el título del recurso o el enlace que utilizaste para verificar la información."></textarea></div>
+      </div>
+    </div>
+    <div class="actions no-print"><button class="action" type="button" id="renderInfographic">Actualizar vista previa</button><button class="action secondary" type="button" id="resetInfographic">Restaurar ejemplo</button><button class="action secondary" type="button" id="clearInfographic">Vaciar campos</button></div>
+    <div id="infStatus" class="status" aria-live="polite">La vista previa muestra un ejemplo editable. Sustituye los textos por el contenido de tu investigación.</div>
+    <div class="panel" style="margin-top:14px">
+      <div class="section-head"><h3 style="margin:0">Vista previa de tu infografía</h3></div>
+      <canvas id="infographicCanvas" width="1200" height="1500" role="img" aria-label="Vista previa de la infografía diseñada por el aprendiz" style="display:block;width:min(100%,620px);height:auto;margin:0 auto;border:2px solid #c8a45d;border-radius:12px;background:#f5e7c7;box-shadow:0 8px 18px rgba(0,0,0,.13)"></canvas>
+      <div class="actions no-print" style="justify-content:center"><button class="action green" type="button" id="downloadInfographic">Descargar infografía PNG</button></div>
+      <p class="note-small" style="text-align:center;margin-bottom:0">Guarda el archivo descargado y entrégalo junto con la ficha de evidencia. La imagen se genera en tu navegador.</p>
+    </div>
+    <div class="grid2" style="margin-top:15px">
+      <div class="panel">
+        <h3>Antes de entregar tu trabajo</h3>
+        <div class="checklist">
+          <label class="checkrow"><input type="checkbox" class="final-check"> Mi título y mensaje principal son claros.</label>
+          <label class="checkrow"><input type="checkbox" class="final-check"> La información está organizada y se entiende fácilmente.</label>
+          <label class="checkrow"><input type="checkbox" class="final-check"> Incluí ejemplos pertinentes de uso de IA.</label>
+        </div>
+      </div>
+      <div class="panel">
+        <h3>Verifica el cierre</h3>
+        <div class="checklist">
+          <label class="checkrow"><input type="checkbox" class="final-check"> Contrasté los datos importantes con fuentes confiables.</label>
+          <label class="checkrow"><input type="checkbox" class="final-check"> Incluí recomendaciones de privacidad y uso responsable.</label>
+          <label class="checkrow"><input type="checkbox" class="final-check"> Revisé la ortografía y señalé las fuentes consultadas.</label>
+        </div>
+      </div>
+    </div>
+    <div id="checkStatus" class="status" aria-live="polite">Marca cada criterio después de revisar tu infografía.</div>
+  </section>
+
+  <section class="card evidence-card" id="evidenceCard">
+    <div class="print-title"><h1>El Reino de los Saberes Perdidos · Misión 4</h1><h2>El pergamino del conocimiento recuperado</h2></div>
+    <div class="section-head"><div class="number">5</div><h2>Tu evidencia: el pergamino del conocimiento recuperado</h2></div>
+    <p>Completa esta ficha y adjunta o entrega la infografía que elaboraste. Puedes imprimirla o guardarla como PDF desde tu navegador.</p>
+    <div class="evidence">
+      <h3>Ficha de entrega del aprendiz</h3>
+      <div class="field"><label for="student">Nombre o código del aprendiz (opcional)</label><input id="student" type="text" placeholder="Escribe tu nombre o código de aula"></div>
+      <label for="evTitle">1. Título de mi infografía</label><input id="evTitle" type="text" placeholder="Título de tu creación">
+      <label for="evIdea">2. ¿Qué idea principal comunica?</label><textarea id="evIdea" placeholder="Resume el mensaje central de tu infografía."></textarea>
+      <label for="evSource">3. ¿Qué fuente utilizaste para verificar la información?</label><textarea id="evSource" placeholder="Escribe el nombre de la fuente y el dato que comprobaste."></textarea>
+      <label for="evResponsible">4. ¿Qué recomendación de uso responsable consideras más importante y por qué?</label><textarea id="evResponsible" placeholder="Explica tu recomendación."></textarea>
+      <label for="evReflection">5. ¿Qué aprendiste sobre el uso de la IA durante esta aventura?</label><textarea id="evReflection" placeholder="Describe brevemente tu aprendizaje."></textarea>
+      <p class="note small">No incluyas contraseñas, direcciones, números de documento ni datos personales sensibles en tu infografía o en tus consultas a herramientas digitales.</p>
+    </div>
+    <div class="actions no-print"><button class="action" type="button" id="printEvidence">Imprimir o guardar ficha en PDF</button><button class="action secondary" type="button" id="checkEvidence">Revisar mi ficha</button></div>
+    <div id="evidenceStatus" class="feedback" aria-live="polite"></div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">6</div><h2>La Gran Biblioteca ha sido restaurada</h2></div>
+    <p>Has reunido los cuatro fragmentos del conocimiento. Cada misión aportó una habilidad necesaria para recuperar la sabiduría del reino:</p>
+    <div class="fragment-grid"><div class="fragment"><div class="symbol">I</div><div><strong>Conocimiento</strong><span>Comprender la IA</span></div></div><div class="fragment"><div class="symbol">II</div><div><strong>Comunicación</strong><span>Formular instrucciones</span></div></div><div class="fragment"><div class="symbol">III</div><div><strong>Verificación</strong><span>Contrastar información</span></div></div><div class="fragment"><div class="symbol">IV</div><div><strong>Responsabilidad</strong><span>Aplicar lo aprendido</span></div></div></div>
+    <p>Tu infografía será el último aporte para reconstruir la biblioteca del reino.</p>
+    <div class="badge-area"><img src="assets/insignia_sabio_del_reino_medieval.png" alt="Insignia medieval Sabio del Reino"><div><h3>Insignia final: Sabio del Reino</h3><p class="reward-note">Esta insignia reconoce la integración de los aprendizajes de las cuatro misiones. Su entrega se valida cuando el docente revisa la infografía y la ficha de evidencia.</p></div></div>
+    <div class="callout" style="margin-top:14px"><strong>Mensaje del Consejo Real:</strong> «La verdadera sabiduría no consiste en aceptar todas las respuestas, sino en saber preguntar, comprobar y utilizar el conocimiento para hacer el bien».</div>
+    <div id="completion" class="feedback good" style="display:none">Tu ficha está preparada para revisión docente. Recuerda descargar la infografía en PNG desde el taller integrado.</div>
+  </section>
+
+  <details class="card teacher">
+    <summary>Orientaciones para el docente · distribución de los 60 minutos</summary>
+    <ul>
+      <li><strong>5 minutos:</strong> presentar la misión final y recuperar el recorrido de las tres misiones anteriores.</li>
+      <li><strong>5 minutos:</strong> explicar las características de la evidencia y los criterios de revisión.</li>
+      <li><strong>10 minutos:</strong> orientar la elección del tema, el objetivo de comunicación y la organización de ideas; los estudiantes pueden preparar un prompt con objetivo, contexto y resultado esperado.</li>
+      <li><strong>25 minutos:</strong> acompañar la elaboración individual de la infografía en el Taller de infografías del Reino. Si se utiliza una herramienta de IA generativa, las consultas se gestionan desde el entorno autorizado por el docente; no se exige registro al estudiante.</li>
+      <li><strong>10 minutos:</strong> revisar claridad, verificación de datos, uso de fuentes, privacidad, ortografía y atribución del uso de IA.</li>
+      <li><strong>5 minutos:</strong> recoger la infografía y la ficha, realizar el cierre narrativo y validar la insignia «Sabio del Reino».</li>
+    </ul>
+    <p><strong>Criterios para revisar el producto:</strong> propósito claro; contenido organizado y pertinente; prompt con objetivo, contexto y resultado esperado; información contrastada; recomendaciones de privacidad y uso responsable; diseño legible y fuentes identificables.</p>
+    <p><strong>Nota de implementación:</strong> la actividad HTML, el taller de infografías y la ficha funcionan localmente, sin conexión a internet, sin cuentas y sin enviar las respuestas a un servidor. La participación directa de estudiantes en herramientas externas de IA no es necesaria: el docente puede gestionar las consultas y presentar las respuestas al grupo.</p>
+  </details>
+
+  <div class="footer">EL REINO DE LOS SABERES PERDIDOS · MISIÓN 4 · RECURSO EDUCATIVO LOCAL, SIN REGISTRO NI SERVICIOS EXTERNOS PARA LA ACTIVIDAD</div>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+async function copyText(text){try{await navigator.clipboard.writeText(text);return true;}catch(e){const ta=document.createElement('textarea');ta.value=text;document.body.appendChild(ta);ta.select();const ok=document.execCommand('copy');ta.remove();return ok;}}
+$('copySamplePrompt').addEventListener('click',async()=>{const ok=await copyText($('samplePrompt').textContent);const n=$('sampleCopyNotice');n.className='feedback '+(ok?'good':'bad');n.textContent=ok?'Ejemplo de instrucción copiado. Puedes adaptarlo a tu tema.':'No fue posible copiar automáticamente. Selecciona y copia el texto manualmente.';});
+const canvas=$('infographicCanvas');
+const ctx=canvas.getContext('2d');
+const defaultInf={infTitle:'IA para aprender con criterio',infSubtitle:'La inteligencia artificial puede ayudarte a aprender, pero debes pensar, revisar y decidir.',infCard1Title:'¿Para qué puede ayudarte?',infCard1:'Puede explicar conceptos difíciles, proponer preguntas para practicar y ayudarte a organizar ideas.',infCard2Title:'Mi instrucción al Oráculo',infCard2:'Explícame tres formas de usar IA para estudiar. Incluye un ejemplo para cada una y dos recomendaciones para verificar los datos.',infCard3Title:'Verifica la información',infCard3:'Comprueba los datos importantes, revisa la fecha y contrasta con fuentes confiables.',infCard4Title:'Utilízala responsablemente',infCard4:'No compartas datos personales, revisa las respuestas y reconoce cuándo utilizaste IA.',infSource:''};
+const examples={
+ study:{infTitle:'IA para aprender con criterio',infSubtitle:'La inteligencia artificial puede ayudarte a aprender, pero debes pensar, revisar y decidir.',infCard1Title:'¿Para qué puede ayudarte?',infCard1:'Puede explicar conceptos difíciles, proponer preguntas para practicar y ayudarte a organizar ideas.',infCard2Title:'Mi instrucción al Oráculo',infCard2:'Explícame tres formas de usar IA para estudiar. Incluye un ejemplo para cada una y dos recomendaciones para verificar los datos.',infCard3Title:'Verifica la información',infCard3:'Comprueba los datos importantes, revisa la fecha y contrasta con fuentes confiables.',infCard4Title:'Utilízala responsablemente',infCard4:'No compartas datos personales, revisa las respuestas y reconoce cuándo utilizaste IA.'},
+ research:{infTitle:'Investiga con apoyo de la IA',infSubtitle:'La IA puede orientar una búsqueda, pero las fuentes confiables respaldan tus conclusiones.',infCard1Title:'Explora un tema',infCard1:'Pide ideas iniciales, conceptos clave y preguntas que te ayuden a iniciar la investigación.',infCard2Title:'Mi instrucción al Oráculo',infCard2:'Resume el tema, compara dos explicaciones y presenta los puntos clave en una tabla breve con fuentes que pueda revisar.',infCard3Title:'Contrasta las respuestas',infCard3:'Revisa datos, fechas y autores; compara con instituciones y publicaciones confiables.',infCard4Title:'Reconoce el apoyo de IA',infCard4:'Reescribe con tus palabras, cita las fuentes consultadas y explica cómo utilizaste la IA.'},
+ environment:{infTitle:'IA para cuidar nuestro ambiente',infSubtitle:'La tecnología puede ayudar a comprender problemas ambientales y proponer acciones informadas.',infCard1Title:'Comprende el problema',infCard1:'Utiliza la IA para explorar conceptos sobre residuos, agua, energía o biodiversidad.',infCard2Title:'Mi instrucción al Oráculo',infCard2:'Explica tres acciones para reducir residuos en mi escuela, indica por qué ayudan y organiza las ideas en una lista breve.',infCard3Title:'Comprueba los datos',infCard3:'Contrasta cifras y recomendaciones con instituciones ambientales y fuentes actualizadas.',infCard4Title:'Actúa responsablemente',infCard4:'Evita difundir datos no comprobados y propone acciones realistas para tu comunidad.'}
+};
+function wrapCanvasText(text,x,y,maxWidth,lineHeight,maxLines,font,color){ctx.font=font;ctx.fillStyle=color;const words=(text||'').split(/\s+/);let line='',lines=0;for(let n=0;n<words.length;n++){const test=line?line+' '+words[n]:words[n];if(ctx.measureText(test).width>maxWidth&&line){ctx.fillText(line,x,y+lines*lineHeight);lines++;line=words[n];if(lines>=maxLines){ctx.fillText(line.replace(/[.,;:]?$/,'…'),x,y+lines*lineHeight);return y+(lines+1)*lineHeight;}}else line=test;}if(line&&lines<maxLines){ctx.fillText(line,x,y+lines*lineHeight);lines++;}return y+lines*lineHeight;}
+function roundedRect(x,y,w,h,r,fill,stroke){ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.lineWidth=3;ctx.strokeStyle=stroke;ctx.stroke();}}
+function drawInfographic(){
+ const v={};Object.keys(defaultInf).forEach(k=>v[k]=$(k).value.trim()||defaultInf[k]);
+ ctx.clearRect(0,0,canvas.width,canvas.height);
+ const bg=ctx.createLinearGradient(0,0,1200,1500);bg.addColorStop(0,'#fff7e6');bg.addColorStop(1,'#ead6a8');ctx.fillStyle=bg;ctx.fillRect(0,0,1200,1500);
+ ctx.fillStyle='#142c4d';ctx.fillRect(0,0,1200,1500);ctx.fillStyle='#c99b43';ctx.fillRect(22,22,1156,1456);ctx.fillStyle='#f7e9c9';ctx.fillRect(34,34,1132,1432);
+ // parchment header
+ roundedRect(70,70,1060,260,26,'#142c4d','#c99b43');
+ ctx.textAlign='center';ctx.fillStyle='#f3d99a';ctx.font='700 27px Georgia';ctx.fillText('EL REINO DE LOS SABERES PERDIDOS',600,117);
+ ctx.fillStyle='#fff2cf';ctx.font='700 52px Georgia';
+ wrapCanvasText(v.infTitle,600,184,980,58,2,'700 52px Georgia','#fff2cf');
+ ctx.fillStyle='#f1ddb3';ctx.font='24px Georgia';wrapCanvasText(v.infSubtitle,600,275,950,34,2,'24px Georgia','#f1ddb3');
+ // title line divider
+ ctx.strokeStyle='#c99b43';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(130,365);ctx.lineTo(1070,365);ctx.stroke();
+ const cards=[['1',v.infCard1Title,v.infCard1],['2',v.infCard2Title,v.infCard2],['3',v.infCard3Title,v.infCard3],['4',v.infCard4Title,v.infCard4]];
+ const positions=[[70,410],[610,410],[70,830],[610,830]];
+ cards.forEach((c,i)=>{const [x,y]=positions[i];roundedRect(x,y,520,365,22,'#fffaf0','#c9a45c');ctx.fillStyle='#142c4d';ctx.beginPath();ctx.arc(x+54,y+55,31,0,Math.PI*2);ctx.fill();ctx.strokeStyle='#c99b43';ctx.lineWidth=5;ctx.stroke();ctx.textAlign='center';ctx.fillStyle='#fff1c8';ctx.font='700 30px Georgia';ctx.fillText(c[0],x+54,y+66);ctx.textAlign='left';ctx.fillStyle='#142c4d';ctx.font='700 30px Georgia';wrapCanvasText(c[1],x+100,y+65,390,36,2,'700 30px Georgia','#142c4d');ctx.strokeStyle='#d2b77a';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(x+30,y+130);ctx.lineTo(x+490,y+130);ctx.stroke();wrapCanvasText(c[2],x+36,y+180,450,34,6,'25px Georgia','#3b3021');});
+ // source panel
+ roundedRect(70,1240,1060,150,18,'#e8dfc8','#c99b43');ctx.textAlign='left';ctx.fillStyle='#142c4d';ctx.font='700 25px Georgia';ctx.fillText('Fuentes consultadas',105,1287);wrapCanvasText(v.infSource||'Registra aquí el nombre o enlace de una fuente confiable.',105,1332,980,29,2,'21px Georgia','#3b3021');
+ // footer ribbon
+ ctx.textAlign='center';ctx.fillStyle='#142c4d';ctx.font='700 23px Georgia';ctx.fillText('PREGUNTA · VERIFICA · PIENSA · UTILIZA LA IA CON RESPONSABILIDAD',600,1435);
+ ctx.textAlign='left';
+ $('evTitle').value=v.infTitle;$('evIdea').value=v.infSubtitle;$('evSource').value=v.infSource;$('evResponsible').value=v.infCard4;
+ $('infStatus').textContent='Vista previa actualizada. Revisa los textos y descarga tu infografía cuando esté lista.';
+ $('infStatus').style.background='#e2f0e5';$('infStatus').style.borderColor='#9dc4a6';$('infStatus').style.color='#225b3b';
+}
+function resetInfographic(){Object.keys(defaultInf).forEach(k=>$(k).value=defaultInf[k]);drawInfographic();}
+function clearInfographic(){Object.keys(defaultInf).forEach(k=>$(k).value='');drawInfographic();$('infStatus').textContent='Has vaciado los campos. Escribe tu propio contenido y vuelve a actualizar la vista previa.';$('infStatus').style.background='#eee0bb';$('infStatus').style.borderColor='#d1b66f';$('infStatus').style.color='#4e3b1e';}
+$('renderInfographic').addEventListener('click',drawInfographic);
+$('resetInfographic').addEventListener('click',resetInfographic);
+$('clearInfographic').addEventListener('click',clearInfographic);
+Object.keys(defaultInf).forEach(k=>$(k).addEventListener('input',()=>{ $('infStatus').textContent='Hay cambios sin actualizar. Selecciona «Actualizar vista previa» para reflejarlos en la infografía.';$('infStatus').style.background='#eee0bb';$('infStatus').style.borderColor='#d1b66f';$('infStatus').style.color='#4e3b1e';}));
+document.querySelectorAll('[data-example]').forEach(btn=>btn.addEventListener('click',()=>{const ex=examples[btn.dataset.example];Object.keys(ex).forEach(k=>$(k).value=ex[k]);drawInfographic();}));
+$('downloadInfographic').addEventListener('click',()=>{drawInfographic();const a=document.createElement('a');a.download='el_pergamino_del_conocimiento_recuperado.png';a.href=canvas.toDataURL('image/png');document.body.appendChild(a);a.click();a.remove();});
+window.addEventListener('load',drawInfographic);
+
+function checkFinal(){const boxes=[...document.querySelectorAll('.final-check')];const done=boxes.filter(x=>x.checked).length;const n=$('checkStatus');n.textContent=`Criterios revisados: ${done} de ${boxes.length}. ${done===boxes.length?'¡La lista está completa! Revisa una última vez antes de entregar.':'Continúa revisando tu infografía antes de exportarla.'}`;if(done===boxes.length){n.style.background='#e2f0e5';n.style.borderColor='#9dc4a6';n.style.color='#225b3b';}else{n.style.background='#eee0bb';n.style.borderColor='#d1b66f';n.style.color='#4e3b1e';}}
+document.querySelectorAll('.final-check').forEach(x=>x.addEventListener('change',checkFinal));
+$('printEvidence').addEventListener('click',()=>{drawInfographic();window.print();});
+$('checkEvidence').addEventListener('click',()=>{const required=['evTitle','evIdea','evSource','evResponsible','evReflection'];const missing=required.filter(id=>!$(id).value.trim());const n=$('evidenceStatus');if(missing.length){n.className='feedback bad';n.textContent='Antes de entregar, completa los cinco apartados de la ficha y adjunta tu infografía.';$('completion').style.display='none';}else{n.className='feedback good';n.textContent='La ficha está completa y lista para revisión docente. Recuerda adjuntar la infografía descargada en PNG.';$('completion').style.display='block';}});
+</script>
+</body>
+</html>

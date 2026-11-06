@@ -1,0 +1,12 @@
+MISIÓN 4: LA RECUPERACIÓN DEL CONOCIMIENTO
+
+1. Descomprime el paquete completo.
+2. Abre el archivo index.html con un navegador actualizado.
+3. Completa los campos del Taller de infografías del Reino.
+4. Selecciona «Actualizar vista previa» y revisa el contenido.
+5. Selecciona «Descargar infografía PNG» para guardar tu producto final.
+6. Completa la ficha de evidencia y entrégala junto con el archivo PNG.
+
+La actividad, el taller de infografías y la ficha funcionan localmente, sin conexión a internet, sin cuentas y sin iniciar sesión. El texto se procesa en el navegador y no se envía a un servidor.
+
+La actividad no conecta directamente con herramientas externas de inteligencia artificial. Si se realiza una demostración con IA, el docente gestionará las consultas desde un servicio previamente autorizado y no se solicitará una cuenta al estudiante.

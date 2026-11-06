@@ -1,0 +1,23 @@
+EL REINO DE LOS SABERES PERDIDOS
+MISIÓN 2: EL LENGUAJE DE LOS SABIOS
+
+CÓMO ABRIR
+1. Descomprime el archivo ZIP.
+2. Abre index.html con un navegador moderno.
+3. No requiere instalación, conexión a internet, registro ni inicio de sesión.
+
+QUÉ INCLUYE
+- Explicación de los tres elementos de un buen prompt: objetivo, contexto y resultado esperado.
+- Comparación interactiva de una instrucción imprecisa y otra mejorada.
+- Constructor guiado para crear un primer prompt.
+- Espacio para redactar un segundo prompt.
+- Actividad para mejorar una de las instrucciones y justificar los cambios.
+- Copiado de prompts para una demostración gestionada por el docente.
+- Ficha del aprendiz imprimible o guardable en PDF.
+- Insignia «Escriba del Oráculo».
+- Guía docente con distribución de los 60 minutos y criterios de revisión.
+
+IMPORTANTE
+Esta página no está conectada a un sistema de inteligencia artificial. El docente gestiona la demostración con su propio acceso. Los estudiantes no deben crear cuentas ni iniciar sesión.
+
+Las respuestas se procesan en el navegador y no se envían a un servidor. Si se imprime la ficha, se pueden guardar los resultados en PDF desde el cuadro de impresión del navegador.

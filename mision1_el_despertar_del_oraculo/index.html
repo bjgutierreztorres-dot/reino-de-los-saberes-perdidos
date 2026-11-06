@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Misión 1: El despertar del Oráculo. Actividad educativa sobre inteligencia artificial para estudiantes de tercer grado de secundaria.">
+<title>Misión 1 | El despertar del Oráculo</title>
+<style>
+:root{--azul:#142c4d;--azul2:#203e66;--oro:#c99b43;--oro-claro:#f2d99d;--pergamino:#fbf2dc;--tinta:#2d261d;--verde:#2f6b4f;--rojo:#8d3d35;--linea:#dbc99f;--fondo:#101b2b;--sombra:0 12px 28px rgba(0,0,0,.18)}
+*{box-sizing:border-box}body{margin:0;background:linear-gradient(145deg,#101b2b,#243b53);color:var(--tinta);font-family:Georgia,'Times New Roman',serif;line-height:1.55}
+.wrap{max-width:1100px;margin:auto;padding:24px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;color:#f7e7bd;margin-bottom:18px;font-family:Arial,sans-serif;font-size:.9rem}.brand{font-weight:700;letter-spacing:.04em}.tag{border:1px solid #d0ae6c;padding:6px 11px;border-radius:999px;color:#f7e7bd}
+.hero{position:relative;background:var(--pergamino);border:3px solid var(--oro);border-radius:18px;overflow:hidden;box-shadow:var(--sombra)}.hero img{display:block;width:100%;height:auto}.hero-footer{padding:16px 22px;background:var(--azul);color:#fff2d2;text-align:center;font-size:1.05rem}
+.card{background:var(--pergamino);border:1px solid var(--linea);border-radius:16px;padding:24px;margin-top:20px;box-shadow:var(--sombra)}h1,h2,h3{color:var(--azul);line-height:1.2}h1{font-size:clamp(1.65rem,4vw,2.5rem);margin:.25rem 0}h2{font-size:1.55rem;margin:0 0 12px}h3{font-size:1.15rem;margin:0 0 8px}.eyebrow{text-transform:uppercase;letter-spacing:.09em;font:700 .76rem Arial,sans-serif;color:#78561b}.intro{font-size:1.06rem}.oracle{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center;background:#f2e4c4;border:1px solid #c9a35f;border-left:7px solid var(--oro);padding:18px;border-radius:12px}.orb{height:96px;width:96px;border-radius:50%;margin:auto;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#c7f3ff,#2e84bf 45%,#102c58 75%);border:5px solid #d5ae61;box-shadow:0 0 24px #7ac4ef;color:white;font-size:2.5rem}
+.note{font: .92rem/1.55 Arial,sans-serif;color:#594b34}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.step{border:1px solid var(--linea);border-radius:12px;padding:13px;background:#fff9eb}.step strong{display:block;color:var(--azul);font:700 .9rem Arial,sans-serif;margin-bottom:5px}.section-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}.number{width:34px;height:34px;display:grid;place-items:center;flex:none;border-radius:50%;background:var(--azul);border:2px solid var(--oro);color:white;font-weight:700}
+.examples{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.example{border:1px solid var(--linea);border-radius:12px;padding:15px;background:#fffaf0}.example p{margin:0 0 12px}.choices{display:flex;flex-wrap:wrap;gap:8px}.choices button,.action{border:1px solid #9f7a38;background:var(--azul);color:white;border-radius:9px;padding:9px 12px;font:700 .9rem Arial,sans-serif;cursor:pointer}.choices button:hover,.action:hover{background:#274d79}.choices button:disabled{cursor:default;opacity:.76}.feedback{margin-top:9px;font: .87rem/1.45 Arial,sans-serif;padding:9px;border-radius:8px;display:none}.feedback.good{display:block;background:#e1f0e4;color:#21583b;border:1px solid #9dc4a6}.feedback.bad{display:block;background:#f8e8df;color:#7b3027;border:1px solid #dbafa0}.score{margin-top:14px;padding:12px;background:#eee0bb;border:1px solid #d1b66f;border-radius:10px;font:700 .95rem Arial,sans-serif}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.secondary{background:transparent!important;color:var(--azul)!important}.answer{background:#f4e8c8;padding:15px;border-radius:10px;border:1px dashed #b58c42}.worksheet{border:2px solid #c5a15a;padding:20px;border-radius:12px;background:#fff9e9}.worksheet label{display:block;font-weight:700;color:var(--azul);margin:14px 0 5px}.worksheet input,.worksheet textarea{width:100%;border:1px solid #bba675;border-radius:8px;background:white;padding:10px;font:1rem Arial,sans-serif;color:#292929}.worksheet textarea{min-height:72px;resize:vertical}.footer{color:#f2e2ba;text-align:center;padding:22px 12px;font: .82rem Arial,sans-serif}.teacher{font: .9rem/1.5 Arial,sans-serif}.teacher summary{cursor:pointer;color:var(--azul);font-weight:700}.muted{color:#6c5e48;font-size:.92rem}.badge-area{display:flex;align-items:center;gap:16px;background:#e8dfc8;padding:14px;border-radius:12px}.badge-area img{width:100px;height:100px;object-fit:contain}.small{font-size:.86rem}
+@media(max-width:720px){.wrap{padding:12px}.oracle{grid-template-columns:1fr}.orb{height:76px;width:76px}.steps{grid-template-columns:1fr}.examples{grid-template-columns:1fr}.card{padding:17px}.topbar{align-items:flex-start;flex-direction:column}.badge-area{align-items:flex-start}}
+@media print{body{background:white;color:#111}.topbar,.hero,.card:not(.worksheet-card),.footer,.no-print{display:none!important}.wrap{max-width:none;padding:0}.worksheet-card{display:block!important;margin:0;border:0;box-shadow:none;background:white;padding:0}.worksheet{border:2px solid #333;background:white}.worksheet input,.worksheet textarea{border:0;border-bottom:1px solid #888;border-radius:0;padding:6px 0}.worksheet textarea{min-height:55px}.worksheet h2,.worksheet h3{color:#111}.print-title{display:block!important}}
+.print-title{display:none}
+</style>
+</head>
+<body><div id="reino-nav" style="position:sticky;top:0;z-index:9999;background:#102746;border-bottom:3px solid #c99b42;padding:10px 16px;display:flex;gap:12px;justify-content:space-between;align-items:center;font-family:Georgia,serif;box-shadow:0 3px 12px #0004"><a href="../index.html" style="color:#f8e7bd;text-decoration:none;font-weight:bold">⚜ El Reino de los Saberes Perdidos</a><div style="display:flex;gap:14px;flex-wrap:wrap"><a href="../index.html">← Volver al reino</a><span style="color:#e7c77f">Misión 1</span><a href="../mision2_el_lenguaje_de_los_sabios/index.html">Siguiente misión →</a></div></div><style>#reino-nav a{color:#f8e7bd;text-decoration:none}#reino-nav a:hover{color:#fff;text-decoration:underline}@media(max-width:600px){#reino-nav{align-items:flex-start;flex-direction:column}}</style>
+<div class="wrap">
+  <div class="topbar"><div class="brand">✦ ORDEN DE LOS SABIOS · EL REINO DE LOS SABERES PERDIDOS</div><div class="tag">Misión 1 de 4 · 60 minutos</div></div>
+  <section class="hero" aria-label="Pergamino de bienvenida"><img src="assets/pergamino-bienvenida.jpg" alt="Pergamino que invita a recuperar los conocimientos del reino con ayuda de la inteligencia artificial"><div class="hero-footer">MISIÓN 1 · EL DESPERTAR DEL ORÁCULO</div></section>
+
+  <section class="card">
+    <div class="eyebrow">Mensaje del Consejo Real</div>
+    <h1>El despertar del Oráculo</h1>
+    <p class="intro">Aprendiz, la Gran Biblioteca ha perdido parte de sus conocimientos. El Consejo Real te encomienda una primera tarea: descubrir qué es la inteligencia artificial, reconocer dónde se utiliza y comprender por qué sus respuestas deben analizarse con criterio.</p>
+    <p>En esta misión conocerás al <strong>Oráculo Real</strong>, una representación de la inteligencia artificial. Mediante ejemplos preparados y una demostración guiada por tu docente, resolverás los desafíos de manera individual y registrarás tus descubrimientos en la ficha del aprendiz.</p>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">1</div><h2>Lo que aprenderás</h2></div>
+    <p>Al completar esta misión, podrás <strong>identificar qué es la inteligencia artificial, reconocer aplicaciones cotidianas y explicar al menos una de sus limitaciones</strong>.</p>
+    <div class="steps">
+      <div class="step"><strong>¿Qué es?</strong>Una tecnología que permite a los sistemas realizar tareas como reconocer patrones, interpretar lenguaje, generar contenido o hacer recomendaciones.</div>
+      <div class="step"><strong>¿Dónde se utiliza?</strong>En asistentes de voz, filtros de correo no deseado, recomendaciones de contenido y herramientas que generan textos o imágenes.</div>
+      <div class="step"><strong>¿Qué limitaciones tiene?</strong>Puede producir errores, información desactualizada o resultados sesgados; por eso debemos revisar sus respuestas.</div>
+    </div>
+    <p class="note"><strong>Idea clave:</strong> no toda tecnología digital utiliza inteligencia artificial. Algunas herramientas solo siguen instrucciones fijas y previamente programadas.</p>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">2</div><h2>Desafío: ¿Inteligencia artificial o tecnología convencional?</h2></div>
+    <p>Lee cada situación y selecciona la opción que consideres correcta. Recibirás una explicación después de responder. Completa las ocho situaciones.</p>
+    <div id="examples" class="examples">
+      <article class="example" data-id="0"><p><strong>1.</strong> Un asistente virtual interpreta una pregunta hablada y genera una respuesta.</p><div class="choices"><button data-choice="ia">Utiliza IA</button><button data-choice="convencional">No necesariamente utiliza IA</button></div><div class="feedback" aria-live="polite"></div></article>
+      <article class="example" data-id="1"><p><strong>2.</strong> Una calculadora básica suma dos números cuando el usuario introduce la operación.</p><div class="choices"><button data-choice="ia">Utiliza IA</button><button data-choice="convencional">No necesariamente utiliza IA</button></div><div class="feedback" aria-live="polite"></div></article>
+      <article class="example" data-id="2"><p><strong>3.</strong> Una plataforma recomienda películas según el historial y las preferencias de visualización.</p><div class="choices"><button data-choice="ia">Utiliza IA</button><button data-choice="convencional">No necesariamente utiliza IA</button></div><div class="feedback" aria-live="polite"></div></article>
+      <article class="example" data-id="3"><p><strong>4.</strong> Un reloj programado hace sonar una alarma todos los días a las 6:30 a. m.</p><div class="choices"><button data-choice="ia">Utiliza IA</button><button data-choice="convencional">No necesariamente utiliza IA</button></div><div class="feedback" aria-live="polite"></div></article>
+      <article class="example" data-id="4"><p><strong>5.</strong> Una herramienta crea una imagen nueva a partir de una descripción escrita por el usuario.</p><div class="choices"><button data-choice="ia">Utiliza IA</button><button data-choice="convencional">No necesariamente utiliza IA</button></div><div class="feedback" aria-live="polite"></div></article>
+      <article class="example" data-id="5"><p><strong>6.</strong> Un semáforo cambia de luz siguiendo siempre el mismo ciclo de tiempo programado.</p><div class="choices"><button data-choice="ia">Utiliza IA</button><button data-choice="convencional">No necesariamente utiliza IA</button></div><div class="feedback" aria-live="polite"></div></article>
+      <article class="example" data-id="6"><p><strong>7.</strong> Un filtro de correo analiza patrones para identificar mensajes que podrían ser correo no deseado.</p><div class="choices"><button data-choice="ia">Utiliza IA</button><button data-choice="convencional">No necesariamente utiliza IA</button></div><div class="feedback" aria-live="polite"></div></article>
+      <article class="example" data-id="7"><p><strong>8.</strong> Una presentación avanza a la diapositiva siguiente cuando el usuario pulsa una tecla.</p><div class="choices"><button data-choice="ia">Utiliza IA</button><button data-choice="convencional">No necesariamente utiliza IA</button></div><div class="feedback" aria-live="polite"></div></article>
+    </div>
+    <div class="score" id="score" aria-live="polite">Respuestas completadas: 0 de 8 · Aciertos: 0</div>
+    <div class="actions no-print"><button class="action secondary" id="reset">Reiniciar desafío</button></div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">3</div><h2>Demostración guiada: consulta al Oráculo Real</h2></div>
+    <div class="oracle"><div class="orb" aria-hidden="true">✦</div><div><h3>Pregunta del aprendiz</h3><p><em>¿Qué es la inteligencia artificial y para qué puede servir?</em></p><h3>Respuesta preparada del Oráculo</h3><p>La inteligencia artificial reúne tecnologías que permiten a los sistemas informáticos realizar tareas como reconocer patrones, interpretar lenguaje, hacer recomendaciones o generar contenido. Puede ayudar a estudiar, organizar información y crear materiales. Sin embargo, puede equivocarse o presentar datos incompletos, por lo que sus respuestas deben revisarse y contrastarse.</p><p class="note"><strong>Importante:</strong> esta es una respuesta didáctica preparada para la misión, no una conversación en directo con una herramienta de IA. El docente puede realizar una demostración adicional desde su propio equipo.</p></div></div>
+    <h3 style="margin-top:18px">Piensa como un aprendiz sabio</h3>
+    <p>Antes de aceptar una respuesta del Oráculo, pregúntate:</p>
+    <ul><li>¿La explicación responde a lo que pregunté?</li><li>¿Puedo comprobar la información en una fuente confiable?</li><li>¿La respuesta podría contener errores o información incompleta?</li></ul>
+  </section>
+
+  <section class="card worksheet-card" id="ficha">
+    <div class="print-title"><h2>Orden de los Sabios · Ficha del aprendiz</h2></div>
+    <div class="section-head"><div class="number">4</div><h2>Ficha del aprendiz: el primer fragmento del conocimiento</h2></div>
+    <p>Completa esta ficha con tus propias palabras. No copies literalmente la respuesta del Oráculo.</p>
+    <div class="worksheet">
+      <div style="text-align:center;border-bottom:1px solid #c4aa71;padding-bottom:10px"><div class="eyebrow">Orden de los Sabios</div><h3>Mi primer pergamino del conocimiento</h3><p class="muted">Misión 1 · El despertar del Oráculo</p></div>
+      <label for="student">Nombre o código del aprendiz:</label><input id="student" type="text" placeholder="Escribe tu nombre o código de aula">
+      <label for="q1">1. Explica con tus propias palabras qué es la inteligencia artificial.</label><textarea id="q1" placeholder="La inteligencia artificial es..."></textarea>
+      <label for="q2">2. Escribe dos ejemplos de aplicaciones que utilizan inteligencia artificial y señala para qué sirven.</label><textarea id="q2" placeholder="Ejemplo 1... / Ejemplo 2..."></textarea>
+      <label for="q3">3. Menciona una limitación de la inteligencia artificial y explica por qué debemos revisar sus respuestas.</label><textarea id="q3" placeholder="Una limitación es... Debemos revisar sus respuestas porque..."></textarea>
+      <label for="q4">4. ¿Qué harías antes de utilizar o compartir una respuesta generada por IA?</label><textarea id="q4" placeholder="Antes de utilizarla, yo..."></textarea>
+      <label for="reflection">5. ¿Qué descubrimiento de esta misión te resultó más interesante?</label><textarea id="reflection" placeholder="Lo que más me llamó la atención fue..."></textarea>
+      <p class="muted small">Revisa tus respuestas antes de imprimir o entregar la ficha. No incluyas contraseñas, direcciones ni otros datos personales.</p>
+    </div>
+    <div class="actions no-print"><button class="action" onclick="window.print()">Imprimir o guardar ficha en PDF</button></div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">5</div><h2>Cierre de la misión</h2></div>
+    <p>Has completado el primer recorrido para recuperar los saberes del reino. Entrega tu ficha al docente para recibir retroalimentación y, cuando valide tu evidencia, obtener la insignia correspondiente.</p>
+    <div class="badge-area"><img src="assets/insignia-aprendiz.jpg" alt="Insignia Aprendiz del Reino"><div><h3>Insignia: Aprendiz del Reino</h3><p class="note">Se concede al identificar conceptos básicos de IA, reconocer aplicaciones y explicar una limitación.</p></div></div>
+    <p class="note" style="margin-top:14px"><strong>Fragmento recuperado:</strong> CONOCIMIENTO. Este fragmento permitirá avanzar hacia la segunda misión: «El lenguaje de los sabios».</p>
+  </section>
+
+  <div class="footer">EL REINO DE LOS SABERES PERDIDOS · MISIÓN 1 · RECURSO EDUCATIVO DE ACCESO LOCAL, SIN REGISTRO NI SERVICIOS EXTERNOS</div>
+</div>
+<script>
+const key={0:'ia',1:'convencional',2:'ia',3:'convencional',4:'ia',5:'convencional',6:'ia',7:'convencional'};
+const why={
+0:'El sistema interpreta el lenguaje hablado y genera una respuesta mediante tecnologías de IA.',
+1:'La calculadora descrita ejecuta una operación definida; no necesita aprender patrones para sumar.',
+2:'El sistema analiza preferencias o patrones de uso para recomendar contenido.',
+3:'La alarma ejecuta una instrucción fija: sonar a la hora programada.',
+4:'La herramienta genera contenido nuevo a partir de una descripción y utiliza un modelo de IA.',
+5:'El semáforo sigue un ciclo fijo previamente programado, sin adaptar su decisión a nuevos datos.',
+6:'El filtro analiza patrones para estimar si un mensaje es no deseado; puede utilizar modelos de IA.',
+7:'La presentación responde a una acción directa del usuario siguiendo una regla programada.'
+};
+let answers={};
+function updateScore(){const done=Object.keys(answers).length;const correct=Object.keys(answers).filter(k=>answers[k]===key[k]).length;document.getElementById('score').textContent=`Respuestas completadas: ${done} de 8 · Aciertos: ${correct}`;if(done===8){const msg=document.createElement('p');msg.className='note';msg.textContent=correct===8?'¡Excelente! Has distinguido todos los ejemplos.':'Desafío completado. Revisa las explicaciones y conversa con tu docente sobre las respuestas que te generaron dudas.';const score=document.getElementById('score');if(!score.querySelector('p'))score.appendChild(msg);}}
+document.querySelectorAll('.example').forEach(card=>{card.querySelectorAll('button').forEach(btn=>btn.addEventListener('click',()=>{const id=card.dataset.id;if(answers[id]!==undefined)return;const selected=btn.dataset.choice;answers[id]=selected;const correct=selected===key[id];const feedback=card.querySelector('.feedback');feedback.className='feedback '+(correct?'good':'bad');feedback.textContent=(correct?'Correcto. ':'Revisa esta respuesta. ')+why[id];card.querySelectorAll('button').forEach(b=>{b.disabled=true;if(b.dataset.choice===key[id])b.style.outline='3px solid #4b8a62';});updateScore();}));});
+document.getElementById('reset').addEventListener('click',()=>{answers={};document.querySelectorAll('.example').forEach(card=>{card.querySelectorAll('button').forEach(b=>{b.disabled=false;b.style.outline='';});const f=card.querySelector('.feedback');f.className='feedback';f.textContent='';});document.getElementById('score').textContent='Respuestas completadas: 0 de 8 · Aciertos: 0';});
+</script>
+</body>
+</html>

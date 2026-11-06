@@ -1,0 +1,13 @@
+EL REINO DE LOS SABERES PERDIDOS — SITIO WEB INTEGRADO
+
+PRUEBA LOCAL
+1. Descomprime el paquete completo.
+2. Abre index.html con un navegador actualizado.
+3. Desde la portada, ingresa a cualquiera de las cuatro misiones.
+4. Usa la barra superior de cada misión para volver al reino o avanzar a la siguiente.
+
+PUBLICACIÓN ONLINE
+Este paquete es un sitio estático listo para publicar en un servicio de alojamiento compatible con HTML/CSS/JS estático (por ejemplo, GitHub Pages). La publicación requiere una cuenta del docente y activar el alojamiento. Los estudiantes no necesitan cuentas.
+
+IMPORTANTE
+Las actividades locales funcionan en el navegador. La consulta a las fuentes NASA de la misión 3 requiere internet. La misión 4 incorpora un taller local para generar y descargar la infografía.

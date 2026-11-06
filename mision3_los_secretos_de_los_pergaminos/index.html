@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Misión 3: Los secretos de los pergaminos. Actividad individual para verificar información generada por inteligencia artificial.">
+<title>Misión 3 | Los secretos de los pergaminos</title>
+<style>
+:root{--azul:#142c4d;--azul2:#203e66;--oro:#c99b43;--oro-claro:#f2d99d;--pergamino:#fbf2dc;--tinta:#2d261d;--verde:#2f6b4f;--rojo:#8d3d35;--linea:#dbc99f;--sombra:0 12px 28px rgba(0,0,0,.18)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(145deg,#101b2b,#243b53);color:var(--tinta);font-family:Georgia,'Times New Roman',serif;line-height:1.55}.wrap{max-width:1120px;margin:auto;padding:24px}.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;color:#f7e7bd;margin-bottom:18px;font-family:Arial,sans-serif;font-size:.9rem}.brand{font-weight:700;letter-spacing:.04em}.mission-no{border:1px solid #d0ae6c;padding:6px 11px;border-radius:999px;color:#f7e7bd}
+.hero{display:grid;grid-template-columns:220px minmax(0,1fr);align-items:stretch;background:var(--pergamino);border:3px solid var(--oro);border-radius:18px;overflow:hidden;box-shadow:var(--sombra)}.hero-art{min-height:245px;padding:18px;background:linear-gradient(145deg,#142c4d,#203e66);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.hero-art img{display:block;width:min(100%,178px);max-height:210px;height:auto;object-fit:contain;object-position:center;margin:auto;filter:drop-shadow(0 5px 8px rgba(0,0,0,.25))}.hero-copy{min-width:0;padding:26px 30px;background:linear-gradient(135deg,#fff7e5,#f1dfb8)}.eyebrow{text-transform:uppercase;letter-spacing:.09em;font:700 .76rem Arial,sans-serif;color:#78561b}.hero h1{font-size:clamp(1.7rem,4vw,2.5rem);margin:6px 0 12px;color:var(--azul);line-height:1.15}.hero-copy p{font-size:1.03rem;margin:8px 0}.hero-foot{margin-top:14px;padding:10px 14px;border-left:5px solid var(--verde);background:#e6efdf;color:#244c38;border-radius:8px;font:.94rem/1.5 Arial,sans-serif}
+.card{background:var(--pergamino);border:1px solid var(--linea);border-radius:16px;padding:24px;margin-top:20px;box-shadow:var(--sombra)}h2,h3{color:var(--azul);line-height:1.2}h2{font-size:1.48rem;margin:0 0 12px}h3{font-size:1.12rem;margin:0 0 8px}.section-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}.number{width:34px;height:34px;display:grid;place-items:center;flex:none;border-radius:50%;background:var(--azul);border:2px solid var(--oro);color:white;font-weight:700}.note{font:.92rem/1.55 Arial,sans-serif;color:#594b34}.muted{color:#6c5e48;font-size:.92rem}.small{font-size:.85rem}.criteria{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.criterion{border:1px solid var(--linea);border-radius:12px;padding:14px;background:#fff9eb}.criterion strong{display:block;color:var(--azul);font:700 .92rem Arial,sans-serif;margin-bottom:5px}.callout{padding:13px 15px;border-radius:10px;background:#eee4f4;border-left:5px solid #78549a;font:.92rem/1.5 Arial,sans-serif;color:#392c4c}.oracle{background:#f2e4c4;border:1px solid #c9a35f;border-left:7px solid var(--oro);padding:18px;border-radius:12px}.oracle-label{font:700 .78rem Arial,sans-serif;color:#70501b;text-transform:uppercase;letter-spacing:.06em}.oracle blockquote{margin:10px 0;padding:12px 15px;background:#fff8e9;border:1px dashed #b58c42;border-radius:10px;font-size:1.08rem;font-weight:700;color:#4a3021}.source-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.source-card{border:1px solid var(--linea);border-radius:12px;background:#fffaf0;padding:16px}.source-card h3{margin:0 0 7px}.source-card a{color:#184d7a;font:700 .9rem Arial,sans-serif;overflow-wrap:anywhere}.source-label{font:700 .75rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:#73541d}.source-summary{background:#f1e5c9;border-left:4px solid var(--oro);border-radius:8px;padding:12px;margin-top:10px;font:.92rem/1.5 Arial,sans-serif}.action{border:1px solid #9f7a38;background:var(--azul);color:white;border-radius:9px;padding:10px 13px;font:700 .9rem Arial,sans-serif;cursor:pointer}.action:hover{background:#274d79}.action.gold{background:#845b15;border-color:#b58c42}.action.green{background:#2f6b4f;border-color:#25583f}.action.secondary{background:transparent;color:var(--azul)}.action:focus-visible,input:focus-visible,textarea:focus-visible,button:focus-visible{outline:3px solid #6b9ed6;outline-offset:2px}.feedback{margin-top:10px;padding:11px;border-radius:9px;font:.9rem/1.5 Arial,sans-serif;display:none}.feedback.good{display:block;background:#e2f0e5;color:#225b3b;border:1px solid #9dc4a6}.feedback.bad{display:block;background:#f8e8df;color:#7b3027;border:1px solid #dbafa0}.choice-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}.choice{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--linea);border-radius:10px;padding:13px;background:#fffaf0;font:.95rem/1.45 Arial,sans-serif;cursor:pointer}.choice input{margin-top:3px;accent-color:#244e79}.field{margin:12px 0}.field label{display:block;font:700 .9rem Arial,sans-serif;color:var(--azul);margin:0 0 5px}.field textarea,.field input,.field select{width:100%;border:1px solid #bba675;border-radius:8px;background:white;padding:10px;font:.98rem/1.45 Arial,sans-serif;color:#292929}.field textarea{min-height:82px;resize:vertical}.hint{display:block;font:.8rem Arial,sans-serif;color:#76684e;margin-top:4px}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:12px}.status{padding:10px 12px;background:#eee0bb;border:1px solid #d1b66f;border-radius:10px;font:700 .9rem Arial,sans-serif;margin-top:10px}.evidence{border:2px solid #c5a15a;padding:19px;border-radius:12px;background:#fff9e9}.evidence label{display:block;font-weight:700;color:var(--azul);margin:13px 0 5px;font:700 .9rem Arial,sans-serif}.evidence input,.evidence textarea{width:100%;border:1px solid #bba675;border-radius:8px;background:white;padding:10px;font:1rem Arial,sans-serif;color:#292929}.evidence textarea{min-height:75px;resize:vertical}.badge-area{display:flex;align-items:center;gap:18px;background:linear-gradient(135deg,#f3e6c8,#e8dfc8);padding:16px;border:1px solid #c5a15a;border-radius:12px;min-width:0}.badge-area img{display:block;flex:0 0 142px;width:142px;height:auto;max-height:190px;object-fit:contain;object-position:center;margin:0 auto}.reward-note{font:.9rem/1.5 Arial,sans-serif;color:#594b34}.teacher{font:.9rem/1.55 Arial,sans-serif}.teacher summary{cursor:pointer;color:var(--azul);font-weight:700}.teacher ul{padding-left:21px}.footer{color:#f2e2ba;text-align:center;padding:22px 12px;font:.82rem Arial,sans-serif}.verification-poster{display:block;width:min(100%,500px);max-height:500px;height:auto;object-fit:contain;object-position:center;margin:18px auto 8px;filter:drop-shadow(0 8px 12px rgba(70,48,16,.16))}.print-title{display:none}.evidence-card{scroll-margin-top:20px}.step-list{display:grid;gap:8px;counter-reset:steps}.step-row{display:flex;gap:12px;align-items:flex-start;border:1px solid var(--linea);background:#fff9eb;border-radius:10px;padding:12px}.step-no{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;flex:none;background:var(--azul);color:#fff;border:2px solid var(--oro);font:700 .85rem Arial,sans-serif}.step-row strong{display:block;color:var(--azul);font:700 .9rem Arial,sans-serif}.mini-tag{display:inline-block;font:700 .72rem Arial,sans-serif;background:#e8dfc8;color:#57421d;border-radius:999px;padding:3px 8px;margin:0 4px 4px 0}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:15px}.notice{padding:12px 14px;border-radius:10px;background:#e9edf4;border:1px solid #c2ccda;font:.9rem/1.5 Arial,sans-serif;color:#203e66}
+@media(max-width:760px){.wrap{padding:12px}.topbar{align-items:flex-start;flex-direction:column}.hero{grid-template-columns:1fr}.hero-art{min-height:150px;padding:12px}.hero-art img{width:118px;max-height:130px}.hero-copy{padding:20px}.criteria{grid-template-columns:1fr 1fr}.source-grid,.choice-list,.two-col{grid-template-columns:1fr}.card{padding:17px}.verification-poster{width:min(100%,430px);max-height:430px}.badge-area{flex-direction:column;align-items:center;text-align:center}.badge-area img{width:118px;max-height:150px;flex-basis:auto}}
+@media(max-width:460px){.criteria{grid-template-columns:1fr}}
+@media print{body{background:white;color:#111}.topbar,.hero,.card:not(.evidence-card),.footer,.no-print,.teacher{display:none!important}.wrap{max-width:none;padding:0}.evidence-card{display:block!important;margin:0;border:0;box-shadow:none;background:white;padding:0}.evidence{border:2px solid #333;background:white}.evidence input,.evidence textarea{border:0;border-bottom:1px solid #888;border-radius:0;padding:6px 0}.evidence textarea{min-height:50px}.evidence h2,.evidence h3{color:#111}.print-title{display:block!important}.evidence-card .section-head .number{background:#333;border-color:#333}}
+</style>
+</head>
+<body><div id="reino-nav" style="position:sticky;top:0;z-index:9999;background:#102746;border-bottom:3px solid #c99b42;padding:10px 16px;display:flex;gap:12px;justify-content:space-between;align-items:center;font-family:Georgia,serif;box-shadow:0 3px 12px #0004"><a href="../index.html" style="color:#f8e7bd;text-decoration:none;font-weight:bold">⚜ El Reino de los Saberes Perdidos</a><div style="display:flex;gap:14px;flex-wrap:wrap"><a href="../mision2_el_lenguaje_de_los_sabios/index.html">← Misión anterior</a><span style="color:#e7c77f">Misión 3</span><a href="../mision4_la_recuperacion_del_conocimiento/index.html">Siguiente misión →</a></div></div><style>#reino-nav a{color:#f8e7bd;text-decoration:none}#reino-nav a:hover{color:#fff;text-decoration:underline}@media(max-width:600px){#reino-nav{align-items:flex-start;flex-direction:column}}</style>
+<div class="wrap">
+  <div class="topbar"><div class="brand">✦ ORDEN DE LOS SABIOS · EL REINO DE LOS SABERES PERDIDOS</div><div class="mission-no">Misión 3 de 4 · Los secretos de los pergaminos</div></div>
+
+  <section class="hero" aria-label="Presentación de la tercera misión">
+    <div class="hero-art"><img src="assets/insignia_guardian_de_la_verdad_medieval.png" alt="Escudo medieval del Guardián de la Verdad, con un libro y una lupa"></div>
+    <div class="hero-copy">
+      <div class="eyebrow">Mensaje del Consejo Real · Tercera misión</div>
+      <h1>Los secretos de los pergaminos</h1>
+      <p><strong>Aprendiz:</strong> algunos mensajes del Oráculo Real parecen convincentes, pero pueden contener errores o información incompleta. La biblioteca del reino necesita guardianes capaces de investigar antes de aceptar una respuesta.</p>
+      <p>Tu tarea será examinar un mensaje, consultar una fuente confiable y justificar una corrección. Recuerda: una respuesta bien redactada no siempre es una respuesta verdadera.</p>
+      <div class="hero-foot"><strong>Tu propósito:</strong> contrastar información generada por IA, identificar un error y explicar la corrección con apoyo de una fuente confiable.</div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">1</div><h2>Aprende a verificar antes de confiar</h2></div>
+    <p>Antes de aceptar la información de un pergamino, examina la fuente que la respalda. Puedes utilizar estas cuatro preguntas:</p>
+    <div class="criteria">
+      <div class="criterion"><strong>1. ¿Quién publica?</strong>Identifica al autor o a la institución responsable de la información.</div>
+      <div class="criterion"><strong>2. ¿Qué evidencia presenta?</strong>Comprueba si incluye datos, explicaciones o fuentes que respalden lo que afirma.</div>
+      <div class="criterion"><strong>3. ¿Está actualizada?</strong>Revisa la fecha de publicación o actualización, cuando esté disponible.</div>
+      <div class="criterion"><strong>4. ¿Puedo contrastarla?</strong>Compara la afirmación con otra fuente confiable y pertinente.</div>
+    </div>
+    <div class="callout" style="margin-top:14px"><strong>Consejo del bibliotecario:</strong> no basta con que una página tenga una apariencia profesional. Revisa quién la publica, qué pruebas ofrece y si otras fuentes confiables confirman la información.</div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">2</div><h2>El mensaje sospechoso del Oráculo Real</h2></div>
+    <p>El Oráculo ha enviado un mensaje para completar un antiguo pergamino de astronomía. Léelo con atención: tu misión es determinar si la información es confiable.</p>
+    <div class="oracle">
+      <div class="oracle-label">Mensaje del Oráculo · Fragmento por verificar</div>
+      <blockquote>«El Sol es un planeta del sistema solar y no produce luz propia; únicamente refleja la luz de otras estrellas».</blockquote>
+      <p class="note"><strong>Advertencia del Consejo:</strong> el mensaje se presenta como material de análisis. No debes aceptarlo sin contrastarlo con una fuente confiable.</p>
+    </div>
+    <div style="margin-top:16px">
+      <h3>Primer veredicto del aprendiz</h3>
+      <p class="note">Según tu primera lectura, ¿cómo clasificarías el mensaje?</p>
+      <div class="choice-list">
+        <label class="choice"><input type="radio" name="verdict" value="confiable"> <span><strong>Es confiable.</strong><br>La afirmación puede aceptarse tal como está.</span></label>
+        <label class="choice"><input type="radio" name="verdict" value="incorrecto"> <span><strong>Contiene información incorrecta.</strong><br>Necesita contrastarse y corregirse.</span></label>
+      </div>
+      <div class="actions"><button class="action" id="checkVerdict" type="button">Comprobar mi veredicto</button></div>
+      <div class="feedback" id="verdictFeedback" role="status" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">3</div><h2>Consulta las fuentes del reino</h2></div>
+    <p>Ahora contrasta el mensaje con información publicada por una institución científica. Abre la fuente si tienes conexión a internet y revisa el contenido. No necesitas registrarte ni iniciar sesión.</p>
+    <div class="source-grid">
+      <article class="source-card">
+        <span class="source-label">Fuente principal · NASA Space Place</span>
+        <h3>¿Cómo es nuestro Sol con respecto a otras estrellas?</h3>
+        <p class="note">La página explica que el Sol es una estrella de tamaño medio y describe sus características.</p>
+        <a href="https://spaceplace.nasa.gov/sun-compare/sp/" target="_blank" rel="noopener noreferrer">Abrir fuente oficial de NASA ↗</a>
+        <div class="source-summary"><strong>Dato para contrastar:</strong> NASA describe al Sol como una estrella formada principalmente por hidrógeno y helio, no como un planeta.</div>
+      </article>
+      <article class="source-card">
+        <span class="source-label">Fuente complementaria · NASA Ciencia</span>
+        <h3>Datos sobre el Sol</h3>
+        <p class="note">Consulta información adicional sobre la naturaleza del Sol y su ubicación en el sistema solar.</p>
+        <a href="https://ciencia.nasa.gov/datos-sobre-el-sol/" target="_blank" rel="noopener noreferrer">Abrir información de NASA Ciencia ↗</a>
+        <div class="source-summary"><strong>Dato para contrastar:</strong> NASA identifica al Sol como una estrella situada en el centro de nuestro sistema solar.</div>
+      </article>
+    </div>
+    <div class="notice" style="margin-top:13px"><strong>Si no puedes abrir los enlaces:</strong> utiliza los datos de consulta incluidos en estas tarjetas para completar la práctica. Cuando tengas internet, vuelve a revisar las páginas oficiales y comprueba la información directamente en la fuente.</div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">4</div><h2>Resuelve el pergamino de verificación</h2></div>
+    <p>Completa cada paso para demostrar que sabes identificar, contrastar y corregir información. La página comprobará que hayas completado la ficha; la calidad de tu explicación será revisada por el docente.</p>
+    <div class="step-list">
+      <div class="step-row"><div class="step-no">1</div><div><strong>Identifica el error</strong><span class="note">Señala qué parte del mensaje del Oráculo no coincide con la información científica consultada.</span></div></div>
+      <div class="step-row"><div class="step-no">2</div><div><strong>Contrasta con una fuente</strong><span class="note">Registra el nombre de la institución y el título de la página que consultaste.</span></div></div>
+      <div class="step-row"><div class="step-no">3</div><div><strong>Escribe la corrección</strong><span class="note">Redacta una versión correcta de la afirmación, usando tus propias palabras.</span></div></div>
+      <div class="step-row"><div class="step-no">4</div><div><strong>Justifica tu conclusión</strong><span class="note">Explica por qué la fuente te parece confiable y qué dato respalda tu corrección.</span></div></div>
+    </div>
+    <img class="verification-poster" src="assets/pergamino_verificacion_medieval.png" alt="Pergamino medieval con los cuatro pasos para verificar la información del Oráculo">
+  </section>
+
+  <section class="card evidence-card" id="evidenceCard">
+    <div class="print-title"><h1>El Reino de los Saberes Perdidos</h1><h2>Pergamino de verificación · Misión 3</h2></div>
+    <div class="section-head"><div class="number">5</div><h2>Tu evidencia: pergamino de verificación</h2></div>
+    <div class="evidence">
+      <p class="muted"><strong>Instrucción:</strong> completa la ficha con tus hallazgos. No incluyas contraseñas ni datos personales sensibles.</p>
+      <div class="field"><label for="studentAlias">Nombre o código (opcional)</label><input id="studentAlias" type="text" placeholder="Puedes dejar este espacio en blanco"></div>
+      <div class="field"><label for="errorPart">¿Qué afirmación del Oráculo es incorrecta?</label><textarea id="errorPart" placeholder="Escribe la parte del mensaje que no coincide con la fuente..."></textarea></div>
+      <div class="field"><label for="sourceName">¿Qué fuente consultaste?</label><input id="sourceName" type="text" placeholder="Ejemplo: NASA Space Place – ¿Cómo es nuestro Sol...? "></div>
+      <div class="field"><label for="sourceEvidence">¿Qué información de la fuente respalda tu conclusión?</label><textarea id="sourceEvidence" placeholder="Resume el dato que encontraste y que permite comprobar la afirmación..."></textarea></div>
+      <div class="field"><label for="correction">Escribe la afirmación corregida</label><textarea id="correction" placeholder="Redacta una versión correcta utilizando tus propias palabras..."></textarea></div>
+      <div class="field"><label for="reliability">¿Por qué consideras confiable la fuente?</label><textarea id="reliability" placeholder="Considera quién publica, la evidencia y la pertinencia de la información..."></textarea></div>
+      <div class="field"><label for="conclusion">Conclusión: ¿qué aprendiste sobre las respuestas de la IA?</label><textarea id="conclusion" placeholder="Explica por qué es necesario verificar la información generada por IA..."></textarea></div>
+      <div class="actions no-print">
+        <button class="action green" type="button" id="validateEvidence">Comprobar mi pergamino</button>
+        <button class="action gold" type="button" id="printEvidenceButton">Imprimir o guardar como PDF</button>
+        <button class="action secondary" type="button" id="clearEvidence">Limpiar ficha</button>
+      </div>
+      <div class="status" id="evidenceStatus" role="status" aria-live="polite">Completa los campos para preparar tu evidencia. La validación no sustituye la revisión del docente.</div>
+      <div class="feedback good" id="completion" style="display:none">
+        <strong>¡Pergamino completado!</strong> Has reunido los elementos solicitados. Tu evidencia está lista para revisión docente. La insignia «Guardián de la Verdad» será validada cuando el docente revise la calidad de tus respuestas.
+      </div>
+      <div class="print-title" style="margin-top:14px">
+        <p><strong>Mensaje del Oráculo:</strong> «El Sol es un planeta del sistema solar y no produce luz propia; únicamente refleja la luz de otras estrellas».</p>
+        <p><strong>Veredicto:</strong> <span id="printVerdict">Pendiente</span></p>
+        <p><strong>Identificación del error:</strong> <span id="printError"></span></p>
+        <p><strong>Fuente consultada:</strong> <span id="printSource"></span></p>
+        <p><strong>Dato de respaldo:</strong> <span id="printSourceEvidence"></span></p>
+        <p><strong>Corrección:</strong> <span id="printCorrection"></span></p>
+        <p><strong>Confiabilidad:</strong> <span id="printReliability"></span></p>
+        <p><strong>Conclusión:</strong> <span id="printConclusion"></span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <div class="section-head"><div class="number">6</div><h2>Tu recompensa: Guardián de la Verdad</h2></div>
+    <div class="badge-area">
+      <img src="assets/insignia_guardian_de_la_verdad_medieval.png" alt="Insignia medieval azul y dorada Guardián de la Verdad, con libro, lupa y castillo">
+      <div><h3>Insignia «Guardián de la Verdad»</h3><p class="reward-note">La obtendrás cuando el docente valide tu pergamino de verificación. Has demostrado que una persona sabia no acepta toda respuesta sin investigar, contrastar y justificar.</p></div>
+    </div>
+  </section>
+
+  <details class="card teacher">
+    <summary>Orientaciones para el docente · distribución de los 60 minutos</summary>
+    <ul>
+      <li><strong>5 minutos:</strong> presentar la historia de los pergaminos y el mensaje sospechoso del Oráculo.</li>
+      <li><strong>10 minutos:</strong> explicar los criterios básicos de verificación: autoría o institución, evidencia, actualización y contraste.</li>
+      <li><strong>10 minutos:</strong> leer la afirmación del Oráculo e identificar qué información requiere comprobación.</li>
+      <li><strong>15 minutos:</strong> orientar la consulta individual de las fuentes oficiales de NASA Space Place y NASA Ciencia.</li>
+      <li><strong>15 minutos:</strong> completar el pergamino de verificación, redactar la corrección y justificar la confiabilidad de la fuente.</li>
+      <li><strong>5 minutos:</strong> ofrecer retroalimentación y validar la insignia «Guardián de la Verdad» según la calidad de la evidencia.</li>
+    </ul>
+    <p><strong>Clave de análisis:</strong> el mensaje es incorrecto porque el Sol no es un planeta; es una estrella situada en el centro del sistema solar. La NASA describe al Sol como una estrella de tamaño medio, formada principalmente por hidrógeno y helio.</p>
+    <p><strong>Criterios para revisar la evidencia:</strong> identifica el error; registra una fuente pertinente; recupera un dato que respalda la corrección; redacta una afirmación científicamente correcta; justifica por qué la fuente es confiable; explica por qué las respuestas de IA deben verificarse.</p>
+    <p><strong>Implementación:</strong> los enlaces a NASA abren páginas públicas sin requerir registro. Si la conexión no está disponible, la misión incluye una ficha de consulta resumida para practicar el contraste. La página no envía ni almacena las respuestas en servidores.</p>
+  </details>
+
+  <div class="footer">EL REINO DE LOS SABERES PERDIDOS · MISIÓN 3 · RECURSO EDUCATIVO LOCAL, SIN REGISTRO NI SERVICIOS EXTERNOS</div>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const textFields=['studentAlias','errorPart','sourceName','sourceEvidence','correction','reliability','conclusion'];
+function selectedVerdict(){const el=document.querySelector('input[name="verdict"]:checked');return el?el.value:'';}
+$('checkVerdict').addEventListener('click',()=>{
+  const v=selectedVerdict(),box=$('verdictFeedback');
+  box.style.display='block';
+  if(!v){box.className='feedback bad';box.textContent='Selecciona un veredicto antes de continuar.';return;}
+  if(v==='incorrecto'){
+    box.className='feedback good';
+    box.textContent='Buen primer análisis. Ahora consulta las fuentes oficiales antes de redactar tu corrección: un veredicto inicial debe sustentarse con evidencia.';
+  }else{
+    box.className='feedback bad';
+    box.textContent='No aceptes el mensaje todavía. Revisa si el Sol es un planeta o una estrella y contrasta la afirmación con la fuente de NASA.';
+  }
+});
+function syncPrint(){
+  $('printVerdict').textContent=selectedVerdict()==='incorrecto'?'Contiene información incorrecta':selectedVerdict()==='confiable'?'Se consideró confiable inicialmente':'Pendiente';
+  $('printError').textContent=$('errorPart').value;
+  $('printSource').textContent=$('sourceName').value;
+  $('printSourceEvidence').textContent=$('sourceEvidence').value;
+  $('printCorrection').textContent=$('correction').value;
+  $('printReliability').textContent=$('reliability').value;
+  $('printConclusion').textContent=$('conclusion').value;
+}
+textFields.forEach(id=>$(id).addEventListener('input',syncPrint));
+document.querySelectorAll('input[name="verdict"]').forEach(el=>el.addEventListener('change',syncPrint));
+$('validateEvidence').addEventListener('click',()=>{
+  const missing=[];
+  if(selectedVerdict()!=='incorrecto')missing.push('clasificar el mensaje como información incorrecta');
+  if(!$('errorPart').value.trim())missing.push('identificar el error');
+  if(!$('sourceName').value.trim())missing.push('registrar la fuente consultada');
+  if(!$('sourceEvidence').value.trim())missing.push('anotar el dato de respaldo');
+  if(!$('correction').value.trim())missing.push('redactar la corrección');
+  if(!$('reliability').value.trim())missing.push('justificar la confiabilidad de la fuente');
+  if(!$('conclusion').value.trim())missing.push('escribir la conclusión');
+  const status=$('evidenceStatus'),done=$('completion');
+  if(missing.length){status.textContent='Todavía falta: '+missing.join('; ')+'.';status.style.background='#f8e8df';status.style.borderColor='#dbafa0';status.style.color='#7b3027';done.style.display='none';}
+  else{status.textContent='La ficha está completa y lista para revisión docente. La comprobación automática verifica que los campos estén llenos, no califica la calidad de las respuestas.';status.style.background='#e2f0e5';status.style.borderColor='#9dc4a6';status.style.color='#225b3b';done.style.display='block';}
+  syncPrint();
+});
+$('printEvidenceButton').addEventListener('click',()=>{syncPrint();window.print();});
+$('clearEvidence').addEventListener('click',()=>{
+  textFields.forEach(id=>$(id).value='');
+  document.querySelectorAll('input[name="verdict"]').forEach(el=>el.checked=false);
+  $('verdictFeedback').style.display='none';$('completion').style.display='none';
+  $('evidenceStatus').textContent='Completa los campos para preparar tu evidencia. La validación no sustituye la revisión del docente.';
+  $('evidenceStatus').style.background='#eee0bb';$('evidenceStatus').style.borderColor='#d1b66f';$('evidenceStatus').style.color='#2d261d';syncPrint();
+});
+</script>
+</body>
+</html>

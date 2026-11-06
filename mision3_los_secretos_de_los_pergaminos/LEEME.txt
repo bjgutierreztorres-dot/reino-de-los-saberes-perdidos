@@ -1,0 +1,13 @@
+MISIÓN 3 — LOS SECRETOS DE LOS PERGAMINOS
+
+1. Descomprime la carpeta.
+2. Abre el archivo index.html en un navegador actualizado.
+3. La actividad funciona localmente y no requiere instalación, cuenta ni inicio de sesión.
+4. Para abrir las fuentes de NASA se necesita conexión a internet. La página incluye un resumen de consulta para practicar si la conexión falla.
+5. La ficha se puede imprimir o guardar como PDF con el botón correspondiente.
+6. La guía docente está en GUIA_DOCENTE_MISION3.txt.
+
+IMPORTANTE: la página comprueba que los campos de evidencia estén completos, pero no califica automáticamente la calidad de las respuestas. La insignia se valida con revisión docente.
+
+
+Versión visual corregida: se reemplazó el icono genérico del encabezado por una insignia medieval; el pergamino se centra y limita de tamaño; la insignia queda completa, proporcionada y sin recortes, tanto en escritorio como en móvil.
