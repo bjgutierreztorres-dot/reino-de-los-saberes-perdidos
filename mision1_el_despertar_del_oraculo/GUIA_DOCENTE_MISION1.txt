@@ -1,9 +1,6 @@
 EL REINO DE LOS SABERES PERDIDOS
 GUÍA DOCENTE — MISIÓN 1: EL DESPERTAR DEL ORÁCULO
-
-Duración: 60 minutos
-Modalidad: trabajo individual
-Acceso: archivo local, sin registro ni inicio de sesión
+Duración: 60 minutos | Modalidad: trabajo individual | Acceso: archivo local
 
 1. DISTRIBUCIÓN DEL TIEMPO
 - 5 minutos: presentación de la misión y lectura del pergamino.
@@ -13,37 +10,27 @@ Acceso: archivo local, sin registro ni inicio de sesión
 - 12 minutos: ficha individual del aprendiz.
 - 8 minutos: retroalimentación y reconocimiento.
 
-2. CLAVE DEL DESAFÍO «¿INTELIGENCIA ARTIFICIAL O TECNOLOGÍA CONVENCIONAL?»
+2. CLAVE DEL DESAFÍO
 1. Asistente virtual que interpreta voz y genera una respuesta: UTILIZA IA.
-   Razón: interpreta lenguaje hablado y produce una respuesta mediante tecnologías de IA.
 2. Calculadora básica que suma una operación introducida: NO NECESARIAMENTE UTILIZA IA.
-   Razón: ejecuta una operación definida; no necesita aprender patrones para sumar.
 3. Plataforma que recomienda películas según historial y preferencias: UTILIZA IA.
-   Razón: analiza preferencias o patrones de uso para recomendar contenido.
 4. Reloj que activa una alarma a una hora programada: NO NECESARIAMENTE UTILIZA IA.
-   Razón: ejecuta una instrucción fija.
 5. Herramienta que genera una imagen a partir de una descripción escrita: UTILIZA IA.
-   Razón: genera contenido a partir de una instrucción mediante un modelo de IA.
 6. Semáforo que cambia de luz siguiendo un ciclo fijo: NO NECESARIAMENTE UTILIZA IA.
-   Razón: sigue un ciclo previamente programado.
 7. Filtro que analiza patrones para identificar correo no deseado: UTILIZA IA.
-   Razón: puede utilizar modelos que reconocen patrones para clasificar mensajes.
 8. Presentación que avanza al pulsar una tecla: NO NECESARIAMENTE UTILIZA IA.
-   Razón: responde a una acción directa mediante una regla programada.
-
-Nota: las respuestas corresponden a los sistemas descritos. Una aplicación real podría combinar funciones convencionales y funciones basadas en IA.
+Nota: las respuestas corresponden a los sistemas descritos; una aplicación real podría combinar funciones convencionales y basadas en IA.
 
 3. RESPUESTA PREPARADA DEL ORÁCULO
 «La inteligencia artificial reúne tecnologías que permiten a los sistemas informáticos realizar tareas como reconocer patrones, interpretar lenguaje, hacer recomendaciones o generar contenido. Puede ayudar a estudiar, organizar información y crear materiales. Sin embargo, puede equivocarse o presentar datos incompletos, por lo que sus respuestas deben revisarse y contrastarse».
+La respuesta es un ejemplo didáctico preparado; no es una conexión en directo con una herramienta de IA.
 
-La respuesta del Oráculo en la página es un ejemplo didáctico preparado; no es una conexión en directo con una herramienta de IA. Si el docente desea realizar una demostración en vivo, deberá hacerlo desde su propio equipo y verificar previamente las condiciones de acceso y edad de la herramienta.
-
-4. CRITERIOS PARA REVISAR LA FICHA DEL APRENDIZ
+4. CRITERIOS PARA REVISAR LA FICHA
 - Define la IA con una explicación comprensible.
-- Presenta dos ejemplos pertinentes de aplicaciones.
+- Presenta dos ejemplos pertinentes.
 - Reconoce una limitación real de la IA.
 - Propone verificar la información antes de utilizarla o compartirla.
-- Expresa una reflexión personal sobre lo aprendido.
+- Expresa una reflexión personal.
 
 5. RECONOCIMIENTO
-La insignia «Aprendiz del Reino» se concede después de revisar la ficha y comprobar que el estudiante identifica conceptos básicos, reconoce aplicaciones y explica al menos una limitación de la IA. La puntuación del desafío interactivo es formativa: no debe utilizarse como único criterio para entregar la insignia.
+La insignia «Aprendiz del Reino» se concede después de revisar la ficha y comprobar que el participante identifica conceptos básicos, reconoce aplicaciones y explica al menos una limitación. La puntuación del desafío es formativa y no debe utilizarse como único criterio para entregar la insignia.

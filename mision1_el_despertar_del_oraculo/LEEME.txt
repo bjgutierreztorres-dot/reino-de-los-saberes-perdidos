@@ -1,23 +1,15 @@
-EL REINO DE LOS SABERES PERDIDOS
-Misión 1: El despertar del Oráculo
+MISIÓN 1 · EL DESPERTAR DEL ORÁCULO
+PAQUETE ILUSTRADO — ESTILO DE FANTASÍA MEDIEVAL ANIMADA
 
-CÓMO ABRIR
-1. Descomprime esta carpeta.
-2. Abre el archivo index.html con cualquier navegador moderno.
-3. No requiere conexión a internet, instalación, registro ni inicio de sesión.
+Esta versión conserva el contenido y la estructura de la misión, pero renueva las seis ilustraciones con un estilo vectorial ilustrado y caricaturesco (no realista), usando azul marino, dorado y tonos pergamino.
 
-CAMBIO DE ESTA VERSIÓN
-- Se eliminó la franja de etiquetas administrativas de la parte superior de la misión.
-- Las indicaciones de trabajo individual y ficha del aprendiz ahora aparecen integradas en el texto narrativo y en la actividad.
+Las imágenes SVG son vectoriales: se mantienen nítidas al ampliar y no dependen de fotografías borrosas.
 
-QUÉ INCLUYE
-- Actividad interactiva de clasificación (8 situaciones).
-- Demostración preparada del Oráculo Real.
-- Ficha del aprendiz imprimible o guardable en PDF desde el navegador.
-- Insignia de la primera misión.
-- Orientaciones para el docente dentro de un apartado desplegable.
+INSTALACIÓN EN GITHUB
+1. Descomprime este ZIP.
+2. En el repositorio, abre la carpeta mision1_el_despertar_del_oraculo.
+3. Sustituye su index.html, los archivos de guía/LEEME y la carpeta assets por los de este paquete.
+4. Conserva exactamente los nombres de las carpetas y archivos.
+5. Confirma los cambios (Commit changes).
 
-IMPORTANTE
-El Oráculo de esta primera misión es una respuesta didáctica preparada, no una conexión en directo con un sistema de IA. Esto permite trabajar sin cuentas de estudiantes ni servicios externos.
-
-La ficha puede imprimirse o guardarse como PDF usando el botón correspondiente. Las respuestas escritas permanecen en el navegador mientras la página está abierta; no se envían ni almacenan en un servidor.
+No reemplaces el index.html de la raíz del repositorio ni las carpetas de las misiones 2, 3 y 4.
