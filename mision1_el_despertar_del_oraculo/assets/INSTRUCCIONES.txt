@@ -1,0 +1,24 @@
+ACTUALIZACION VISUAL — MISION 1: EL DESPERTAR DEL ORACULO
+
+1) Descomprime este paquete.
+2) Copia los seis archivos JPG dentro de:
+   mision1_el_despertar_del_oraculo/assets/
+3) En index.html, sustituye la imagen de portada:
+   assets/pergamino-bienvenida.jpg
+   por assets/01-oraculo-portada.jpg
+4) Inserta estas imagenes en sus secciones correspondientes:
+   - Antes del bloque .steps: 02-conceptos-ia.jpg
+   - Antes de las ocho tarjetas del desafio: 03-desafio-clasificacion.jpg
+   - Antes del bloque .oracle: 04-demostracion-oraculo.jpg
+   - Antes del bloque .worksheet: 05-ficha-aprendiz.jpg
+   - En el cierre, reemplaza la imagen de insignia por 06-insignia-aprendiz.jpg
+
+Fragmento HTML para cada ilustracion (cambia el nombre del archivo):
+<figure class="mission-art"><img src="assets/NOMBRE-DEL-ARCHIVO.jpg" alt="Ilustracion de apoyo de la mision"><figcaption>EL DESPERTAR DEL ORACULO</figcaption></figure>
+
+Agrega estas reglas al final del CSS de index.html:
+.mission-art{margin:16px 0 20px;border:1px solid #d0ad68;border-radius:13px;overflow:hidden;background:#f6e8c8;box-shadow:0 6px 16px #182a4218}
+.mission-art img{display:block;width:100%;height:auto}
+.mission-art figcaption{padding:8px 12px;text-align:center;color:#654b20;font:700 .78rem Arial,sans-serif;letter-spacing:.04em;background:#f2e2bf}
+
+No elimines ni reemplaces los textos, actividades, retroalimentaciones, ficha o navegación actuales.
