@@ -1,0 +1,27 @@
+GUÍA DOCENTE — MISIÓN 2: EL LENGUAJE DE LOS SABIOS
+Duración: 60 minutos. Modalidad: trabajo individual con acompañamiento docente.
+
+PROPÓSITO
+Formular instrucciones claras y pertinentes para interactuar con la inteligencia artificial, incorporando objetivo, contexto y resultado esperado.
+
+SECUENCIA
+1. Inicio y narrativa (5 min): presentar el mensaje del Consejo Real y el reto de convertirse en Escriba del Oráculo.
+2. Conceptos clave (10 min): explicar qué es un prompt y sus tres componentes: objetivo, contexto y resultado esperado.
+3. Comparación guiada (10 min): analizar una instrucción imprecisa y otra contextualizada. Solicitar que identifiquen diferencias.
+4. Producción individual (15 min): cada aprendiz formula dos prompts para necesidades académicas distintas.
+5. Demostración del Oráculo (10 min): el docente selecciona consultas, realiza la demostración desde su herramienta y guía el análisis de la respuesta.
+6. Mejora y justificación (5 min): cada aprendiz revisa un prompt y explica los cambios.
+7. Cierre (5 min): revisar la ficha y validar la insignia.
+
+EVIDENCIA
+Ficha «Mi colección de instrucciones»: dos prompts pertinentes, una versión mejorada, justificación de los cambios y reflexión sobre la comunicación con IA.
+
+CRITERIOS DE REVISIÓN
+- El objetivo expresa una tarea o necesidad identificable.
+- El contexto aporta información relevante para orientar la respuesta.
+- El resultado esperado define formato, extensión o características de la respuesta.
+- La versión mejorada incorpora cambios pertinentes.
+- El aprendiz justifica sus decisiones.
+
+SEGURIDAD Y PRIVACIDAD
+No solicitar datos personales sensibles, contraseñas ni información privada. La actividad funciona localmente y no requiere cuentas. El docente gestiona cualquier consulta a herramientas externas y verifica previamente sus condiciones de uso y edad. La insignia es simbólica y se valida mediante revisión docente.
