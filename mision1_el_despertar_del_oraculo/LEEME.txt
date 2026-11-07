@@ -1,0 +1,25 @@
+MISIÓN 1: EL DESPERTAR DEL ORÁCULO
+Paquete completo para reemplazar la carpeta existente en GitHub Pages.
+
+CONTENIDO
+- index.html: misión completa, adaptable a celular y computadora.
+- assets/: seis ilustraciones nuevas de estilo medieval fantástico animado.
+- GUIA_DOCENTE_MISION1.txt: orientaciones para acompañar la actividad.
+
+CÓMO PROBARLA
+1. Descomprime el ZIP.
+2. Abre la carpeta Mision1_El_Despertar_del_Oraculo_COMPLETA.
+3. Haz doble clic en index.html. Se abre en el navegador y funciona sin conexión.
+4. Comprueba los ocho casos del desafío, las explicaciones desplegables y la ficha imprimible.
+
+CÓMO PUBLICARLA EN GITHUB SIN EDITAR CÓDIGO
+La carpeta interna que debes subir se llama mision1_el_despertar_del_oraculo.
+Reemplaza el contenido de esa carpeta en el repositorio por TODO el contenido de esta carpeta del paquete: index.html, GUIA_DOCENTE_MISION1.txt, LEEME.txt y la carpeta assets completa.
+No cambies el nombre de la carpeta ni los nombres de los archivos.
+El archivo index.html debe quedar directamente dentro de mision1_el_despertar_del_oraculo, y las seis imágenes dentro de mision1_el_despertar_del_oraculo/assets.
+
+IMPORTANTE
+- No requiere instalar programas, extensiones ni dependencias externas.
+- No necesita cambiar rutas ni editar HTML.
+- La ficha se guarda automáticamente en el navegador del dispositivo; para conservar una copia, utiliza “Imprimir / Guardar ficha en PDF”.
+- El desafío se puede reiniciar con su botón correspondiente.

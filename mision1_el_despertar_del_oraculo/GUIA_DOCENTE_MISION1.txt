@@ -1,0 +1,42 @@
+GUÍA DOCENTE | MISIÓN 1: EL DESPERTAR DEL ORÁCULO
+
+PROPÓSITO
+Acompañar al aprendiz en la identificación de qué es la inteligencia artificial, el reconocimiento de aplicaciones cotidianas y la explicación de al menos una de sus limitaciones.
+
+TIEMPO ESTIMADO
+60 minutos.
+
+SECUENCIA SUGERIDA
+1. Exploración de conceptos clave (10 minutos)
+   Orientar la lectura de los tres ejes: qué es la IA, dónde se utiliza y cuáles son sus limitaciones. Invitar a ampliar cada explicación y relacionarla con experiencias cotidianas.
+
+2. Desafío de clasificación (15 minutos)
+   Solicitar que se analicen las ocho situaciones y se clasifiquen como uso de IA o tecnología convencional. La actividad proporciona retroalimentación inmediata y permite reiniciar el ejercicio para revisar las decisiones.
+
+3. Demostración guiada (15 minutos)
+   Revisar la consulta y la respuesta ilustrativa del Oráculo Real. Guiar el análisis de pertinencia, claridad, verificación y limitaciones. Aclarar que una respuesta convincente debe contrastarse con fuentes confiables.
+
+4. Ficha del aprendiz (15 minutos)
+   Solicitar una producción individual con una explicación propia de IA, dos ejemplos de uso, una limitación relevante y un criterio para revisar respuestas generadas por IA. La ficha puede imprimirse o guardarse como PDF.
+
+5. Cierre (5 minutos)
+   Revisar la evidencia, brindar retroalimentación y validar el reconocimiento de la insignia “Aprendiz del Reino”. Presentar el fragmento recuperado: CONOCIMIENTO, que conecta con la Misión 2.
+
+RESPUESTAS ESPERADAS DEL DESAFÍO
+1. IA: asistente virtual que interpreta lenguaje y genera respuestas.
+2. Tecnología convencional: calculadora básica que ejecuta una operación introducida.
+3. IA: recomendación de películas basada en historial y preferencias.
+4. Tecnología convencional: alarma programada a una hora fija.
+5. IA: generación de una imagen a partir de una descripción.
+6. Tecnología convencional: semáforo con ciclo fijo programado.
+7. IA: filtro que analiza patrones para detectar correo no deseado.
+8. Tecnología convencional: presentación que avanza al pulsar una tecla.
+
+CRITERIOS PARA REVISAR LA FICHA
+- Explica con sus propias palabras qué es la inteligencia artificial.
+- Presenta dos ejemplos pertinentes de uso cotidiano o académico.
+- Explica una limitación de la IA.
+- Propone un criterio razonable para revisar una respuesta generada por IA.
+
+RECOMENDACIÓN
+La demostración contiene una respuesta ilustrativa elaborada para fines didácticos. No debe presentarse como una consulta real realizada a una plataforma externa.
