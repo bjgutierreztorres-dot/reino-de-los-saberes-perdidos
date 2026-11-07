@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t d">
+<title id="t">Ficha del aprendiz</title><desc id="d">Ilustración vectorial animada de fantasía medieval, en azul marino, dorado y pergamino.</desc>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#102746"/><stop offset="1" stop-color="#244d78"/></linearGradient>
+ <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#ffe9a6"/><stop offset=".48" stop-color="#d99a32"/><stop offset="1" stop-color="#9b5d17"/></linearGradient>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fff4cf"/><stop offset="1" stop-color="#dcae62"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#e9ffff"/><stop offset=".25" stop-color="#69d9ff"/><stop offset=".65" stop-color="#1266db"/><stop offset="1" stop-color="#082b70"/></radialGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/><path d="M135 95 Q100 107 118 150 L100 760 Q120 805 165 793 Q800.0 833 1445 797 Q1515 803 1492 740 L1500 140 Q1485 90 1440 103 Q800.0 73 135 95Z" fill="url(#paper)" stroke="#8d541b" stroke-width="18"/>
+<path d="M148 137 Q800.0 110 1455 137 L1458 755 Q800.0 787 145 755Z" fill="none" stroke="#d59a38" stroke-width="6" opacity=".8"/><path d="M400 142 l55 -22 h690 l55 22 -55 22 H455Z" fill="#09234a" stroke="url(#gold)" stroke-width="10"/>
+<text x="800.0" y="154" text-anchor="middle" font-family="Georgia,serif" font-size="42" font-weight="bold" fill="#fff0c4" stroke="#3b260e" stroke-width="1">4. FICHA DEL APRENDIZ</text><text x="800" y="280" text-anchor="middle" font-family="Georgia" font-size="42" fill="#17345b">Registra tus descubrimientos en el pergamino</text><path d="M330 360 Q330 330 370 330 H1020 Q1060 330 1060 370 V680 Q1060 720 1020 720 H370 Q330 720 330 680Z" fill="#fff0c8" stroke="#bd8129" stroke-width="14"/>
+<path d="M410 420 l25 25 50 -65 M410 530 l25 25 50 -65 M410 640 l25 25 50 -65" fill="none" stroke="#28784b" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M520 430 H950 M520 540 H950 M520 650 H950" stroke="#9b6a2d" stroke-width="10" stroke-linecap="round"/>
+<path d="M1160 420 Q1300 340 1390 430 V680 Q1300 600 1160 700Z" fill="#e7bd72" stroke="#8e551b" stroke-width="14"/><path d="M1195 470 H1350 M1195 520 H1350 M1195 570 H1350" stroke="#9b6a2d" stroke-width="8"/><text x="800" y="790" text-anchor="middle" font-family="Georgia" font-size="32" fill="#17345b">¿Qué aprendiste? · ¿Dónde se aplica? · ¿Qué debes verificar?</text>
+</svg>
