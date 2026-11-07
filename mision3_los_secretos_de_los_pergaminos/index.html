@@ -13,6 +13,17 @@
 @media(max-width:760px){.wrap{padding:12px}.topbar{align-items:flex-start;flex-direction:column}.hero{grid-template-columns:1fr}.hero-art{min-height:150px;padding:12px}.hero-art img{width:118px;max-height:130px}.hero-copy{padding:20px}.criteria{grid-template-columns:1fr 1fr}.source-grid,.choice-list,.two-col{grid-template-columns:1fr}.card{padding:17px}.verification-poster{width:min(100%,430px);max-height:430px}.badge-area{flex-direction:column;align-items:center;text-align:center}.badge-area img{width:118px;max-height:150px;flex-basis:auto}}
 @media(max-width:460px){.criteria{grid-template-columns:1fr}}
 @media print{body{background:white;color:#111}.topbar,.hero,.card:not(.evidence-card),.footer,.no-print,.teacher{display:none!important}.wrap{max-width:none;padding:0}.evidence-card{display:block!important;margin:0;border:0;box-shadow:none;background:white;padding:0}.evidence{border:2px solid #333;background:white}.evidence input,.evidence textarea{border:0;border-bottom:1px solid #888;border-radius:0;padding:6px 0}.evidence textarea{min-height:50px}.evidence h2,.evidence h3{color:#111}.print-title{display:block!important}.evidence-card .section-head .number{background:#333;border-color:#333}}
+
+/* Acceso de regreso al mapa del reino */
+.return-kingdom-wrap{display:flex;justify-content:center;margin:28px auto 8px;padding:0 12px}
+.return-kingdom{display:inline-flex;align-items:center;gap:13px;padding:10px 23px 10px 11px;border:2px solid #f4d27b;border-radius:999px;background:linear-gradient(145deg,#173b69,#0c2344);color:#fff0c7;text-decoration:none;font-weight:700;font-size:1.05rem;box-shadow:0 7px 18px #07182d55,inset 0 1px 0 #fff8;transition:transform .2s ease,box-shadow .2s ease,background .2s ease}
+.return-kingdom:hover{transform:translateY(-3px);background:linear-gradient(145deg,#24558b,#102746);box-shadow:0 11px 24px #07182d77,inset 0 1px 0 #fff8}
+.return-kingdom:focus-visible{outline:3px solid #fff1c8;outline-offset:4px}
+.return-kingdom-coin{width:54px;height:54px;flex:0 0 54px;display:grid;place-items:center;border-radius:50%;border:4px double #fff0bf;background:radial-gradient(circle at 35% 28%,#fff1b5 0,#e9bd55 48%,#a96a17 100%);color:#102746;font-size:29px;box-shadow:inset 0 0 0 2px #c58b2e,0 2px 7px #0005}
+.return-kingdom-label{letter-spacing:.02em}
+.return-kingdom-arrow{font-size:1.2rem;color:#f5d27b;margin-left:2px}
+@media(max-width:520px){.return-kingdom{font-size:.95rem;padding-right:17px}.return-kingdom-coin{width:48px;height:48px;flex-basis:48px;font-size:25px}}
+
 </style>
 </head>
 <body><div id="reino-nav" style="position:sticky;top:0;z-index:9999;background:#102746;border-bottom:3px solid #c99b42;padding:10px 16px;display:flex;gap:12px;justify-content:space-between;align-items:center;font-family:Georgia,serif;box-shadow:0 3px 12px #0004"><a href="../index.html" style="color:#f8e7bd;text-decoration:none;font-weight:bold">⚜ El Reino de los Saberes Perdidos</a><div style="display:flex;gap:14px;flex-wrap:wrap"><a href="../mision2_el_lenguaje_de_los_sabios/index.html">← Misión anterior</a><span style="color:#e7c77f">Misión 3</span><a href="../mision4_la_recuperacion_del_conocimiento/index.html">Siguiente misión →</a></div></div><style>#reino-nav a{color:#f8e7bd;text-decoration:none}#reino-nav a:hover{color:#fff;text-decoration:underline}@media(max-width:600px){#reino-nav{align-items:flex-start;flex-direction:column}}</style>
@@ -152,6 +163,8 @@
     <p><strong>Criterios para revisar la evidencia:</strong> identifica el error; registra una fuente pertinente; recupera un dato que respalda la corrección; redacta una afirmación científicamente correcta; justifica por qué la fuente es confiable; explica por qué las respuestas de IA deben verificarse.</p>
     <p><strong>Implementación:</strong> los enlaces a NASA abren páginas públicas sin requerir registro. Si la conexión no está disponible, la misión incluye una ficha de consulta resumida para practicar el contraste. La página no envía ni almacena las respuestas en servidores.</p>
   </details>
+
+  <div class="return-kingdom-wrap no-print"><a class="return-kingdom" href="../index.html" aria-label="Volver al reino: regresar a la página principal de las misiones"><span class="return-kingdom-coin" aria-hidden="true">♜</span><span class="return-kingdom-label">Volver al reino</span><span class="return-kingdom-arrow" aria-hidden="true">➜</span></a></div>
 
   <div class="footer">EL REINO DE LOS SABERES PERDIDOS · MISIÓN 3 · RECURSO EDUCATIVO LOCAL, SIN REGISTRO NI SERVICIOS EXTERNOS</div>
 </div>
